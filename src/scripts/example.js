@@ -5,7 +5,7 @@ class Example {
 
         // this.handleClick = this.handleClick.bind(this)
         // this.ele.addEventListener("click", this.handleClick());
-        
+
         this.ele.addEventListener("click", () => this.handleClick());
     }
 
@@ -13,6 +13,8 @@ class Example {
         this.ele.children[0].innerText = "Ouch!"
     }
  }
+
+
 
 export default Example;
 
