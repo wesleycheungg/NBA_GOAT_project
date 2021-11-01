@@ -1,5 +1,6 @@
 import Example from "./scripts/example";
-import Player from "./scripts/player"
+import CurryInfo from "./scripts/curry-info";
+import curryDrawChart from "./scripts/draw-chart-curry"
 
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -15,5 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // const player1 = document.getElementsByClassName("player-1");
     // new Player(player1)
+    curryDrawChart();
+
 })
 
