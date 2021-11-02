@@ -1,3 +1,16 @@
 .flex-box-container{
     display: flex;
 }
+
+#player-team {
+    margin: 0px;
+}
+
+#player-name {
+    margin: 0px;
+}
+
+#player-nickname {
+    margin: 0px;
+    
+}

@@ -1,0 +1,12 @@
+
+.career-stats {
+    visibility: hidden;
+    font-size: 12px;
+}
+
+.career-headers th{
+    color: maroon;
+    padding: 5px;
+    
+}
+

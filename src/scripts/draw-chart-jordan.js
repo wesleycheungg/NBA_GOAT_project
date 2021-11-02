@@ -1,4 +1,4 @@
-function curryDrawChart() {
+function mjDrawChart() {
     var chart = new CanvasJS.Chart("chartContainer", {
     animationEnabled: true,
 
@@ -26,19 +26,20 @@ function curryDrawChart() {
         indexLabelFontSize: 10,
         type: "bar",
         axisYType: "secondary",
-        color: "rgba(29, 66, 138)",
+        color: "rgba(206, 17, 65)",
         dataPoints: [
-            { y: 0, indexLabel: "Rookie of the Year (0)" },
-            {y: 7, indexLabel: "All-Stars (7)" },
-            {y: 2, indexLabel: "Scoring Champs (2)" },
-            {y: 7, indexLabel: "All-NBAs (7)" },
-            {y: 0, indexLabel: "NBA-Finals MVPs (0)" },
-            {y: 3, indexLabel: "MVPs (3)" },
-            {y: 3, indexLabel: "NBA Titles (3)" },
+            {y: 1, indexLabel: "Rookie of the Year (1)" },
+            {y: 10, indexLabel: "Scoring Champs (10)" },
+            {y: 14, indexLabel: "All-Stars (14)" },
+            {y: 11, indexLabel: "All-NBAs (11)" },
+            {y: 9, indexLabel: "All-Defensive (9)" },
+            {y: 6, indexLabel: "NBA-Finals MVPs (6)" },
+            {y: 5, indexLabel: "MVPs (5)" },
+            {y: 6, indexLabel: "NBA Titles (6)" },
         ]
         }]
     });
 
     chart.render();
 }
-export default curryDrawChart
+export default mjDrawChart
