@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./dist/main.css">
     <link rel="stylesheet" href="./src/styles/player-nav-bar.css">
     <link rel="stylesheet" href="./src/styles/curry-bio.css">
+    <link rel="stylesheet" href="./src/styles/lebron-bio.css">
     <script src="./dist/main.js"></script>
     <title>Who is the NBA GOAT?</title>
 </head>
@@ -20,22 +21,31 @@
 <body>
     <nav>
         <ul class="player-nav-bar-1">
-            <li><img src="./src/img/curry_icon.png"></img></li>
-            <li><img src="./src/img/lebron_icon.png"></img></li>
-            <li><img src="./src/img/mj_icon.png"></img></li>
-            <li><img src="./src/img/kobe_icon.png"></img></li>
-            <li><img src="./src/img/shaq_icon.png"></img></li>
+            <li id="1"><img src="./src/img/curry_icon.png"></img></li>
+            <li id="2"><img src="./src/img/lebron_icon.png"></img></li>
+            <li id="3"><img src="./src/img/mj_icon.png"></img></li>
+            <li id="4"><img src="./src/img/kobe_icon.png"></img></li>
+            <li id="5"><img src="./src/img/shaq_icon.png"></img></li>
         <!-- </ul>
         <ul class="player-nav-bar-2"> -->
-            <li><img src="./src/img/kareem_icon.png"></img></li>
-            <li><img src="./src/img/hakeem_icon.png"></img></li>
-            <li><img src="./src/img/bird_icon.png"></img></li>
-            <li><img src="./src/img/magic_icon.png"></img></li>
-            <li><img src="./src/img/russell_icon.png"></img></li>
+            <li id="6"><img src="./src/img/kareem_icon.png"></img></li>
+            <li id="7"><img src="./src/img/hakeem_icon.png"></img></li>
+            <li id="8"><img src="./src/img/bird_icon.png"></img></li>
+            <li id="9"><img src="./src/img/magic_icon.png"></img></li>
+            <li id="10"><img src="./src/img/russell_icon.png"></img></li>
         </ul>
     </nav>
+
+    <div class="flex-box-container">
+        <div class="flex-box-row">
+            <h5 id="player-team"></h5>
+            <h2 id="player-name"></h2>
+        </div>
+
+
+    </div>
     
-    <div class="curry-info">
+    <!-- <div class="curry-info">
         <div class="curry-bio">
             <img src="./src/img/bio/curry-bio.png"></img>
             <h2>Stephen Curry</h2>
@@ -43,7 +53,7 @@
         </div>
 
         <div class="accolades-graph">
-            <div id="chartContainer" style="height: 200px; width: 500px;"></div>
+            <div id="chartContainer-curry" style="height: 250px; width: 500px;"></div>
         </div>
         
         <div>
@@ -78,6 +88,49 @@
         </div>
     </div>
 
+    <div class="lebron-info">
+        <div class="lebron-bio">
+            <img src="./src/img/bio/lebron-bio.png"></img>
+            <h2>Lebron James</h2>
+            <br>
+        </div>
+    
+        <div class="accolades-graph">
+            <div id="chartContainer-lbj" style="height: 250px; width: 500px;"></div>
+        </div>
+    
+        <div>
+            <table class="lebron-career-stats">
+                <tr class="lebron-career-headers">
+                    <th>Summary</th>
+                    <th>G</th>
+                    <th>PTS</th>
+                    <th>TRB</th>
+                    <th>AST</th>
+                    <th>FG%</th>
+                    <th>FG3%</th>
+                    <th>FT%</th>
+                    <th>eFG%</th>
+                    <th>PER</th>
+                    <th>WS</th>
+                </tr>
+                <tr class="lebron-career-avgs">
+                    <td style="text-align:center">Career</td>
+                    <td style="text-align:center">1315</td>
+                    <td style="text-align:center">27</td>
+                    <td style="text-align:center">7.4</td>
+                    <td style="text-align:center">7.4</td>
+                    <td style="text-align:center">50.4</td>
+                    <td style="text-align:center">34.5</td>
+                    <td style="text-align:center">73.4</td>
+                    <td style="text-align:center">54.2</td>
+                    <td style="text-align:center">27.4</td>
+                    <td style="text-align:center">242.4</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+ -->
 
     
 

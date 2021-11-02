@@ -1,5 +1,5 @@
 function lebronDrawChart() {
-    var chart = new CanvasJS.Chart("chartContainer", {
+    var chart = new CanvasJS.Chart("chartContainer-lbj", {
     animationEnabled: true,
 
     title:{
@@ -26,15 +26,15 @@ function lebronDrawChart() {
         indexLabelFontSize: 10,
         type: "bar",
         axisYType: "secondary",
-        color: "rgba(29, 66, 138)",
+        color: "rgba(85, 37, 130)",
         dataPoints: [
-            { y: 0, indexLabel: "Rookie of the Year (0)" },
-            {y: 7, indexLabel: "All Stars (7)" },
-            {y: 2, indexLabel: "Scoring Champs (2)" },
-            {y: 7, indexLabel: "All-NBAs (7)" },
-            {y: 0, indexLabel: "NBA-Finals MVPs (0)" },
-            {y: 3, indexLabel: "MVPs (3)" },
-            {y: 3, indexLabel: "NBA Titles (3)" },
+            {y: 1, indexLabel: "Rookie of the Year (1)" },
+            {y: 1, indexLabel: "Scoring Champs (1)" },
+            {y: 17, indexLabel: "All Stars (17)" },
+            {y: 17, indexLabel: "All-NBAs (17)" },
+            {y: 4, indexLabel: "NBA-Finals MVPs (4)" },
+            {y: 4, indexLabel: "MVPs (4)" },
+            {y: 4, indexLabel: "NBA Titles (4)" },
         ]
         }]
     });

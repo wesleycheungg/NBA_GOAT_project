@@ -1,5 +1,5 @@
 function curryDrawChart() {
-    var chart = new CanvasJS.Chart("chartContainer", {
+    var chart = new CanvasJS.Chart("chartContainer-curry", {
     animationEnabled: true,
 
     title:{

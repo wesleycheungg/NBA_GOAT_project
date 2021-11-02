@@ -1,6 +1,9 @@
 import Example from "./scripts/example";
-import CurryInfo from "./scripts/curry-info";
-import curryDrawChart from "./scripts/draw-chart-curry"
+
+import players from "./scripts/data";
+
+import curryDrawChart from "./scripts/draw-chart-curry";
+import lebronDrawChart from "./scripts/draw-chart-lebron";
 
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -11,12 +14,17 @@ document.addEventListener("DOMContentLoaded", () => {
     // element.innerHTML = "The NBA GOAT Debate"
     // document.body.appendChild(element)
 
+    const curry = document.getElementById("1")
+    let playerName = document.getElementById("player-name")
+    let playerTeam = document.getElementById("player-team")
+    
+    curry.addEventListener("click", function() {
+        playerName.innerHTML = players[0].fullName
+        playerTeam.innerHTML = players[0].team
+    })
 
-
-
-    // const player1 = document.getElementsByClassName("player-1");
-    // new Player(player1)
-    curryDrawChart();
+    // curryDrawChart();
+    // lebronDrawChart();
 
 })
 
