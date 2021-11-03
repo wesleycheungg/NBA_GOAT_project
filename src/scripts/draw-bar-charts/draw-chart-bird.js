@@ -28,15 +28,15 @@ function birdDrawChart() {
         axisYType: "secondary",
         color: "rgba(0, 122, 51)",
         dataPoints: [
-            {y: 0, indexLabel: "Rookie of the Year (0)" },
-            {y: 0, indexLabel: "Scoring Champs (0)" },
-            {y: 2, indexLabel: "Defensive Player of the Year (2)" },
-            {y: 12, indexLabel: "All-Stars (12)" },
-            {y: 3, indexLabel: "All-Defensive (3)" },
-            {y: 10, indexLabel: "All-NBAs (10)" },
-            {y: 2, indexLabel: "NBA-Finals MVPs (2)" },
-            {y: 3, indexLabel: "MVPs (3)" },
-            {y: 3, indexLabel: "NBA Titles (3)" },
+            { y: 0, label: "Rookie of the Year", indexLabel: "Rookie of the Year (0)" },
+            { y: 0, label: "Scoring Champs", indexLabel: "Scoring Champs (0)" },
+            { y: 2, label: "Defensive Player of the Year", indexLabel: "Defensive Player of the Year (2)" },
+            {y: 12, label: "All-Stars", indexLabel: "All-Stars (12)" },
+            { y: 3, label: "All-Defensive", indexLabel: "All-Defensive (3)" },
+            { y: 10, label: "All-NBAs", indexLabel: "All-NBAs (10)" },
+            { y: 2, label: "NBA-Finals MVPs", indexLabel: "NBA-Finals MVPs (2)" },
+            { y: 3, label: "MVPs", indexLabel: "MVPs (3)" },
+            { y: 3, label: "NBA Titles", indexLabel: "NBA Titles (3)" },
         ]
         }]
     });

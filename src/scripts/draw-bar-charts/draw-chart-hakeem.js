@@ -28,15 +28,15 @@ function hakeemDrawChart() {
         axisYType: "secondary",
         color: "rgba(186,12,47)",
         dataPoints: [
-            {y: 0, indexLabel: "Rookie of the Year (0)" },
-            {y: 3, indexLabel: "Block Champs (3)" },
-            {y: 0, indexLabel: "Scoring Champs (0)" },
-            {y: 12, indexLabel: "All-Stars (12)" },
-            {y: 9, indexLabel: "All-Defensive (9)" },
-            {y: 12, indexLabel: "All-NBAs (12)" },
-            {y: 2, indexLabel: "NBA-Finals MVPs (2)" },
-            {y: 1, indexLabel: "MVPs (1)" },
-            {y: 2, indexLabel: "NBA Titles (2)" },
+            {y: 0, label: "Rookie of the Year", indexLabel: "Rookie of the Year (0)" },
+            {y: 3, label: "Block Champs", indexLabel: "Block Champs (3)" },
+            {y: 0, label: "Scoring Champs", indexLabel: "Scoring Champs (0)" },
+            {y: 12,label: "All-Stars", indexLabel: "All-Stars (12)" },
+            {y: 9, label: "All-Defensive", indexLabel: "All-Defensive (9)" },
+            {y: 12,label: "All-NBAs", indexLabel: "All-NBAs (12)" },
+            {y: 2, label: "NBA-Finals MVPs", indexLabel: "NBA-Finals MVPs (2)" },
+            {y: 1, label: "MVPs", indexLabel: "MVPs (1)" },
+            {y: 2, label: "NBA Titles", indexLabel: "NBA Titles (2)" },
         ]
         }]
     });

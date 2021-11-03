@@ -28,13 +28,13 @@ function curryDrawChart() {
         axisYType: "secondary",
         color: "rgba(29, 66, 138)",
         dataPoints: [
-            { y: 0, indexLabel: "Rookie of the Year (0)" },
-            {y: 7, indexLabel: "All-Stars (7)" },
-            {y: 2, indexLabel: "Scoring Champs (2)" },
-            {y: 7, indexLabel: "All-NBAs (7)" },
-            {y: 0, indexLabel: "NBA-Finals MVPs (0)" },
-            {y: 3, indexLabel: "MVPs (3)" },
-            {y: 3, indexLabel: "NBA Titles (3)" },
+            {y: 0, label: "Rookie of the Year", indexLabel: "Rookie of the Year (0)" },
+            {y: 7, label: "All-Stars", indexLabel: "All-Stars (7)" },
+            {y: 2, label: "Scoring Champs", indexLabel: "Scoring Champs (2)" },
+            {y: 7, label: "All-NBAs", indexLabel: "All-NBAs (7)" },
+            {y: 0, label: "NBA-Finals MVPs", indexLabel: "NBA-Finals MVPs (0)" },
+            { y: 3, label: "MVPs", indexLabel: "MVPs (3)" },
+            {y: 3, label: "NBA Titles", indexLabel: "NBA Titles (3)" },
         ]
         }]
     });

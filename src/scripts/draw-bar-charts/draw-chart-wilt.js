@@ -28,16 +28,16 @@ function wiltDrawChart() {
         axisYType: "secondary",
         color: "rgba(0, 47, 108)",
         dataPoints: [
-            {y: 1, indexLabel: "Rookie of the Year (1)" },
-            {y: 7, indexLabel: "Scoring Champ (7)" },
-            {y: 11, indexLabel: "Total Rebound Champ (11)" },
-            {y: 1, indexLabel: "Assist Champ (1)" },
-            {y: 13, indexLabel: "All-Stars (13)" },
-            {y: 10, indexLabel: "All-NBAs (10)" },
-            {y: 2, indexLabel: "All-Defensive (2)" },
-            {y: 1, indexLabel: "NBA-Finals MVPs (1)" },
-            {y: 4, indexLabel: "MVPs (4)" },
-            {y: 2, indexLabel: "NBA Titles (2)" },
+            {y: 1, label: "Rookie of the Year", indexLabel: "Rookie of the Year (1)" },
+            {y: 7, label: "Scoring Champ", indexLabel: "Scoring Champ (7)" },
+            {y: 11,label: "Total Rebound Champ",  indexLabel: "Total Rebound Champ (11)" },
+            {y: 1, label: "Assist Champ", indexLabel: "Assist Champ (1)" },
+            {y: 13,label: "All-Stars",  indexLabel: "All-Stars (13)" },
+            {y: 10,label: "All-NBAs",  indexLabel: "All-NBAs (10)" },
+            {y: 2, label: "All-Defensive", indexLabel: "All-Defensive (2)" },
+            {y: 1, label: "NBA-Finals MVPs", indexLabel: "NBA-Finals MVPs (1)" },
+            {y: 4, label: "MVPs", indexLabel: "MVPs (4)" },
+            {y: 2, label: "NBA Titles", indexLabel: "NBA Titles (2)" },
         ]
         }]
     });

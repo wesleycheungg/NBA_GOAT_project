@@ -28,13 +28,13 @@ function lebronDrawChart() {
         axisYType: "secondary",
         color: "rgba(253, 185, 39)",
         dataPoints: [
-            {y: 1, indexLabel: "Rookie of the Year (1)" },
-            {y: 1, indexLabel: "Scoring Champs (1)" },
-            {y: 17, indexLabel: "All-Stars (17)" },
-            {y: 17, indexLabel: "All-NBAs (17)" },
-            {y: 4, indexLabel: "NBA-Finals MVPs (4)" },
-            {y: 4, indexLabel: "MVPs (4)" },
-            {y: 4, indexLabel: "NBA Titles (4)" },
+            {y: 1, label: "Rookie of the Year", indexLabel: "Rookie of the Year (1)" },
+            {y: 1, label: "Scoring Champs", indexLabel: "Scoring Champs (1)" },
+            {y: 17,label: "All-Stars",  indexLabel: "All-Stars (17)" },
+            {y: 17,label: "All-NBAs",  indexLabel: "All-NBAs (17)" },
+            {y: 4, label: "NBA-Finals MVPs", indexLabel: "NBA-Finals MVPs (4)" },
+            {y: 4, label: "MVPs", indexLabel: "MVPs (4)" },
+            {y: 4, label: "NBA Titles", indexLabel: "NBA Titles (4)" },
         ]
         }]
     });
