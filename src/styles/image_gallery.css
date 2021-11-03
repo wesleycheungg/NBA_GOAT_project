@@ -8,7 +8,9 @@
 
 /* Position the image container (needed to position the left and right arrows) */
 .container {
-  position: relative;
+    padding-top: 25px;
+    position: relative;
+    display: none;
 }
 
 /* Hide the images by default */

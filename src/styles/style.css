@@ -29,9 +29,10 @@ body {
     /* border-radius: 10px; */
 }
 
-h5 {
+h2 {
     /* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
-
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
 }
 
 .bio {
@@ -42,7 +43,8 @@ h5 {
 
 
 #chartContainer, #pieChartContainer {
-    padding-top: 10px;
+    padding-top: 25px;
+    padding-left: 20px;
 }
 
 

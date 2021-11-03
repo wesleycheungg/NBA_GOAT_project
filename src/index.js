@@ -63,6 +63,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let main = document.querySelector(".flex-box-row")
 
+    let imgContainer = document.querySelector(".container")
+    let img1 = document.getElementById("gallery1")
+    let img2 = document.getElementById("gallery2")
+    let img3 = document.getElementById("gallery3")
+
     const curry = document.getElementById("0")
     curry.addEventListener("click", function() {
         main.style.backgroundColor = "white"
@@ -109,6 +114,12 @@ document.addEventListener("DOMContentLoaded", () => {
         stats.style.display = "block"
         instructions.style.display ="none"
         // playerBackground.style.backgroundImage = "url('/src/img/background/steph-background.png')"
+
+        imgContainer.style.display = "block"
+        img1.src = "/src/img/gallery/steph-video.mp4"
+        img1.muted = true
+        img2.src = "/src/img/gallery/steph2.png"
+        img3.src = "/src/img/gallery/steph3.png"
 
         curryPieChart();
         curryDrawChart();
@@ -160,6 +171,13 @@ document.addEventListener("DOMContentLoaded", () => {
         stats.style.display = "block"
         instructions.style.display = "none"
         // playerBackground.style.backgroundImage = "url('/src/img/background/lebron-background.png')"
+
+        imgContainer.style.display = "block"
+        img1.src = "/src/img/gallery/lebron-video.mp4"
+        img1.muted = true
+        img2.src = "/src/img/gallery/lebron2.png"
+        img3.src = "/src/img/gallery/lebron3.png"
+
 
         lebronDrawChart();
         lebronPieChart();

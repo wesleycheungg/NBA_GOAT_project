@@ -3,7 +3,8 @@ function hakeemDrawChart() {
     animationEnabled: true,
 
     title:{
-        text:"Career Accolades"
+        text: "Career Accolades",
+        fontFamily: 'Rock Salt'
     },
     axisX:{
         gridThickness: 0,
