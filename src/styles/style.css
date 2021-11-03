@@ -1,6 +1,42 @@
+body {
+    /* maybe include background? */
+    position: relative;
+}
+
 .flex-box-container{
     display: flex;
+    /* background-color: lightgray; */
+    border-radius: 20px;
+    justify-content: center;
+    
 }
+
+.flex-box-row {
+    background-color: white;
+    /* border-radius: 10px; */
+    /* border: 1px solid; */
+}
+
+.flex-box-row img {
+    border-radius: 10px;
+}
+
+h5 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.bio {
+    float: right;
+    text-align: left;
+    width: 300px
+}
+
+
+#chartContainer, #pieChartContainer {
+    padding-top: 10px;
+}
+
 
 #player-team {
     margin: 0px;

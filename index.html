@@ -22,61 +22,65 @@
 <body>
     <nav>
         <ul class="player-nav-bar-1">
-            <li id="1"><img src="./src/img/curry_icon.png"></img></li>
-            <li id="2"><img src="./src/img/lebron_icon.png"></img></li>
-            <li id="3"><img src="./src/img/mj_icon.png"></img></li>
-            <li id="4"><img src="./src/img/kobe_icon.png"></img></li>
-            <li id="5"><img src="./src/img/shaq_icon.png"></img></li>
+            <li id="0"><img src="./src/img/curry_icon.png"></img></li>
+            <li id="1"><img src="./src/img/lebron_icon.png"></img></li>
+            <li id="2"><img src="./src/img/mj_icon.png"></img></li>
+            <li id="3"><img src="./src/img/kobe_icon.png"></img></li>
+            <li id="4"><img src="./src/img/shaq_icon.png"></img></li>
         <!-- </ul>
         <ul class="player-nav-bar-2"> -->
-            <li id="6"><img src="./src/img/kareem_icon.png"></img></li>
-            <li id="7"><img src="./src/img/hakeem_icon.png"></img></li>
-            <li id="8"><img src="./src/img/bird_icon.png"></img></li>
-            <li id="9"><img src="./src/img/magic_icon.png"></img></li>
-            <li id="10"><img src="./src/img/russell_icon.png"></img></li>
+            <li id="5"><img src="./src/img/kareem_icon.png"></img></li>
+            <li id="6"><img src="./src/img/hakeem_icon.png"></img></li>
+            <li id="7"><img src="./src/img/bird_icon.png"></img></li>
+            <li id="8"><img src="./src/img/magic_icon.png"></img></li>
+            <li id="9"><img src="./src/img/russell_icon.png"></img></li>
         </ul>
     </nav>
 
     <div class="flex-box-container">
         <div class="flex-box-row">
             <img id="player-img"></img>
-            <h5 id="player-team"></h5>
-            <h2 id="player-name"></h2>
-            <h6 id="player-nickname"></h6>
-
-            <div class="accolades-graph">
-                <div id="chartContainer" style="height: 250px; width: 100%;"></div>
+            <div class="bio">
+                <h5 id="player-team"></h5>
+                <h2 id="player-name"></h2>
+                <h6 id="player-nickname"></h6>
             </div>
 
-            <table class="career-stats">
-                <tr class="career-headers">
-                    <th>Summary</th>
-                    <th>G</th>
-                    <th>PTS</th>
-                    <th>TRB</th>
-                    <th>AST</th>
-                    <th>FG%</th>
-                    <th>FG3%</th>
-                    <th>FT%</th>
-                    <th>eFG%</th>
-                    <th>PER</th>
-                    <th>WS</th>
-                </tr>
-                <tr class="career-avgs">
-                    <td id="Summary" style="text-align:center">Career</td>
-                    <td id="G" style="text-align:center"></td>
-                    <td id="PTS" style="text-align:center"></td>
-                    <td id="TRB" style="text-align:center"></td>
-                    <td id="AST" style="text-align:center"></td>
-                    <td id="FG" style="text-align:center"></td>
-                    <td id="FG3" style="text-align:center"></td>
-                    <td id="FT" style="text-align:center"></td>
-                    <td id="eFG" style="text-align:center"></td>
-                    <td id="PER" style="text-align:center"></td>
-                    <td id="WS" style="text-align:center"></td>
-                </tr>
-            </table>
+            <div>
+                <table class="career-stats">
+                    <tr class="career-headers">
+                        <th>Summary</th>
+                        <th>G</th>
+                        <th>PTS</th>
+                        <th>TRB</th>
+                        <th>AST</th>
+                        <th>FG%</th>
+                        <th>FG3%</th>
+                        <th>FT%</th>
+                        <th>eFG%</th>
+                        <th>PER</th>
+                        <th>WS</th>
+                    </tr>
+                    <tr class="career-avgs">
+                        <td id="Summary" style="text-align:center">Career</td>
+                        <td id="G" style="text-align:center"></td>
+                        <td id="PTS" style="text-align:center"></td>
+                        <td id="TRB" style="text-align:center"></td>
+                        <td id="AST" style="text-align:center"></td>
+                        <td id="FG" style="text-align:center"></td>
+                        <td id="FG3" style="text-align:center"></td>
+                        <td id="FT" style="text-align:center"></td>
+                        <td id="eFG" style="text-align:center"></td>
+                        <td id="PER" style="text-align:center"></td>
+                        <td id="WS" style="text-align:center"></td>
+                    </tr>
+                </table>
+            </div>
 
+
+            <div id="chartContainer" style="height: 250px; width: 400px;"></div>
+            <br>
+            <div id="pieChartContainer" style="height: 250px; width: 400px;"></div>
 
         </div>
 
@@ -176,5 +180,7 @@
     
 
 <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+
 </body>
 </html>

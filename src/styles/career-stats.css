@@ -1,6 +1,7 @@
 
 .career-stats {
-    visibility: hidden;
+    /* visibility: hidden; */
+    display: none;
     font-size: 12px;
 }
 

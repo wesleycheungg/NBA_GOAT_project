@@ -31,6 +31,7 @@ function shaqDrawChart() {
             {y: 1, indexLabel: "Rookie of the Year (1)" },
             {y: 2, indexLabel: "Scoring Champs (2)" },
             {y: 15, indexLabel: "All-Stars (15)" },
+            { y: 3, indexLabel: "All-Defensive (3)" },
             {y: 14, indexLabel: "All-NBAs (14)" },
             {y: 3, indexLabel: "NBA-Finals MVPs (3)" },
             {y: 1, indexLabel: "MVPs (1)" },

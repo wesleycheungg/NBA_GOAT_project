@@ -1,13 +1,13 @@
 const players = [
     {
-        id: 1,
+        id: 0,
         fullName: "Stephen Curry",
         jerseyNumber: 30,
         team: "Golden State Warriors",
         position: "Point Guard",
         shoots: "Right-Handed",
         img: "curry-bio",
-        nickname: ["Chef Curry", "Steph", "Baby-Faced Assassin"],
+        nickname: ["Chef Curry", " Steph", " Baby-Faced Assassin"],
         stats: {
             Summary: "Career",
             G: "768",
@@ -22,24 +22,25 @@ const players = [
             WS: "113.2"
         },
         accolades: {
-            Rookie_of_the_Year: 0,
-            All_Stars: 7,
-            Scoring_Champs: 2,
-            All_NBA: 7,
-            NBA_Finals_MVP: 0,
+            "Rookie of the Year": 0,
+            "All Stars": 7,
+            "Scoring Champ": 3,
+            "Steal Champ": 1,
+            "All-NBA": 7,
+            "NBA-Finals MVP": 0,
             MVP: 3,
-            NBA_Titles: 3
+            "NBA Titles": 3
         }
     },
 
     {
-        id: 2,
+        id: 1,
         fullName: "Lebron James",
         jerseyNumber: 23,
         team: "Los Angeles Lakers",
         position: "Small Forward",
         shoots: "Right-Handed",
-        nickname: ["King James", "LBJ", "Chosen One"],
+        nickname: ["King James", " LBJ", " Chosen One"],
         stats: {
             Summary: "Career",
             G: "1315",
@@ -54,25 +55,26 @@ const players = [
             WS: "113.2"
         },
         accolades: {
-            Rookie_of_the_Year: 1,
-            All_Stars: 7,
-            Scoring_Champs: 2,
-            All_NBA: 7,
-            NBA_Finals_MVP: 0,
+            "Rookie of the Year": 1,
+            "All Stars": 7,
+            "Scoring Champ": 2,
+            "All Defensive": 6,
+            "All-NBA": 7,
+            "NBA-Finals MVP": 0,
             MVP: 3,
-            NBA_Titles: 3
+            "NBA Titles": 3
         }
     },
 
     {
-        id: 3,
+        id: 2,
         fullName: "Michael Jordan",
         jerseyNumber: 23,
         team: "Chicago Bulls",
         position: "Shooting Guard",
         shoots: "Right-Handed",
         img: "",
-        nickname: ["Air Jordan", "M.J.", "Mike"],
+        nickname: ["Air Jordan", " M.J.", " Mike"],
         stats: {
             Summary: "Career",
             G: "1072",
@@ -87,26 +89,26 @@ const players = [
             WS: "214.0"
         },
         accolades: {
-            Rookie_of_the_Year: 1,
-            All_Stars: 14,
-            Scoring_Champs: 10,
-            All_Defensive: 9,
-            All_NBA: 11,
-            NBA_Finals_MVP: 6,
+            "Rookie of the Year": 1,
+            "All Stars": 14,
+            "Scoring Champ": 10,
+            "All-Defensive": 9,
+            "All-NBA": 11,
+            "NBA-Finals MVP": 6,
             MVP: 5,
-            NBA_Titles: 6
+            "NBA Titles": 6
         }
     },
 
     {
-        id: 4,
+        id: 3,
         fullName: "Kobe Bryant",
         jerseyNumber: 23,
         team: "Los Angeles Lakers",
         position: "Shooting Guard",
         shoots: "Right-Handed",
         img: "",
-        nickname: ["Black Mamba", "KB24", "Vino"],
+        nickname: ["Black Mamba", " KB24", " Vino"],
         stats: {
             Summary: "Career",
             G: "1346",
@@ -121,26 +123,26 @@ const players = [
             WS: "179.7"
         },
         accolades: {
-            Rookie_of_the_Year: 0,
-            All_Stars: 18,
-            Scoring_Champs: 2,
-            All_Defensive: 12,
-            All_NBA: 15,
-            NBA_Finals_MVP: 2,
+            "Rookie of the Year": 0,
+            "All Stars": 18,
+            "Scoring Champ": 2,
+            "All-Defensive": 12,
+            "All-NBA": 15,
+            "NBA-Finals MVP": 2,
             MVP: 1,
-            NBA_Titles: 5
+            "NBA Titles": 5
         }
     },
 
     {
-        id: 5,
+        id: 4,
         fullName: "Shaquille O'Neal",
         jerseyNumber: 32,
         team: "Los Angeles Lakers",
         position: "Center",
         shoots: "Right-Handed",
         img: "",
-        nickname: ["Shaq", "Diesel", "Superman"],
+        nickname: ["Shaq", " Diesel", " Superman"],
         stats: {
             Summary: "Career",
             G: "1207",
@@ -155,14 +157,49 @@ const players = [
             WS: "181.7"
         },
         accolades: {
-            Rookie_of_the_Year: 1,
-            All_Stars: 15,
-            Scoring_Champs: 2,
-            All_Defensive: 3,
-            All_NBA: 14,
-            NBA_Finals_MVP: 3,
+            "Rookie of the Year": 1,
+            "All Stars": 15,
+            "Scoring Champ": 2,
+            "All-Defensive": 3,
+            "All-NBA": 14,
+            "NBA-Finals MVP": 3,
             MVP: 1,
-            NBA_Titles: 4
+            "NBA Titles": 4
+        }
+    },
+
+    {
+        id: 5,
+        fullName: "Kareem Abdul-Jabbar",
+        jerseyNumber: 33,
+        team: "Los Angeles Lakers",
+        position: "Center",
+        shoots: "Right-Handed",
+        img: "",
+        nickname: ["Lew", " Cap", " Murdock"],
+        stats: {
+            Summary: "Career",
+            G: "1560",
+            PTS: "24.6",
+            TRB: "11.2",
+            AST: "3.6",
+            "FG%": "55.9",
+            "FG3%": "5.6",
+            "FT%": "72.1",
+            "eFG%": "55.9",
+            PER: "24.6",
+            WS: "273.4"
+        },
+        accolades: {
+            "Rookie of the Year": 1,
+            "Block Champ": 4,
+            "All Stars": 19,
+            "Scoring Champ": 2,
+            "All-Defensive": 11,
+            "All-NBA": 15,
+            "NBA-Finals MVP": 2,
+            MVP: 6,
+            "NBA Titles": 6
         }
     },
 
