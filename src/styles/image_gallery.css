@@ -2,9 +2,9 @@
   box-sizing: border-box;
 }
 
-img {
+/* img {
   vertical-align: middle;
-}
+} */
 
 /* Position the image container (needed to position the left and right arrows) */
 .container {
@@ -16,10 +16,6 @@ img {
   display: none;
 }
 
-/* Add a pointer when hovering over the thumbnail images */
-.cursor {
-  cursor: pointer;
-}
 
 /* Next & previous buttons */
 .prev,
@@ -55,20 +51,4 @@ img {
   content: "";
   display: table;
   clear: both;
-}
-
-/* Six columns side by side */
-.column {
-  float: left;
-  width: 16.66%;
-}
-
-/* Add a transparency effect for thumnbail images */
-.demo {
-  opacity: 0.6;
-}
-
-.active,
-.demo:hover {
-  opacity: 1;
 }
