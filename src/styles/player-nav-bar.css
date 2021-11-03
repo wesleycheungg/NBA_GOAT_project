@@ -33,9 +33,10 @@ nav {
 .player-nav-bar-1 img:hover {
     -webkit-filter: grayscale(0);
     border-radius: 10px;
+    border: 2px solid yellow;
 }
 
-.player-nav-bar-2 li {
+/* .player-nav-bar-2 li {
     list-style-type: none;
     display: inline-block;
 }
@@ -56,4 +57,4 @@ nav {
 .player-nav-bar-2 img:hover {
     -webkit-filter: grayscale(0);
     border-radius: 10px;
-}
+} */

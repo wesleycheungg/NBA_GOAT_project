@@ -1,6 +1,10 @@
 body {
     /* maybe include background? */
     position: relative;
+    background-image: url("/src/img/background/background.png");
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .flex-box-container{
@@ -12,8 +16,8 @@ body {
 }
 
 .flex-box-row {
-    background-color: white;
-    /* border-radius: 10px; */
+    /* background-color: white; */
+    border-radius: 10px;
     /* border: 1px solid; */
 }
 

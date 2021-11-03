@@ -1,16 +1,16 @@
 
 import players from "./scripts/data";
 
-import curryDrawChart from "./scripts/draw-chart-curry";
-import lebronDrawChart from "./scripts/draw-chart-lebron";
-import mjDrawChart from "./scripts/draw-chart-jordan";
-import kobeDrawChart from "./scripts/draw-chart-kobe";
-import shaqDrawChart from "./scripts/draw-chart-shaq";
-import kareemDrawChart from "./scripts/draw-chart-kareem";
-import hakeemDrawChart from "./scripts/draw-chart-hakeem";
-import birdDrawChart from "./scripts/draw-chart-bird";
-import magicDrawChart from "./scripts/draw-chart-magic";
-import wiltDrawChart from "./scripts/draw-chart-wilt";
+import curryDrawChart from "./scripts/draw-bar-charts/draw-chart-curry";
+import lebronDrawChart from "./scripts//draw-bar-charts/draw-chart-lebron";
+import mjDrawChart from "./scripts//draw-bar-charts/draw-chart-jordan";
+import kobeDrawChart from "./scripts//draw-bar-charts/draw-chart-kobe";
+import shaqDrawChart from "./scripts//draw-bar-charts/draw-chart-shaq";
+import kareemDrawChart from "./scripts//draw-bar-charts/draw-chart-kareem";
+import hakeemDrawChart from "./scripts//draw-bar-charts/draw-chart-hakeem";
+import birdDrawChart from "./scripts//draw-bar-charts/draw-chart-bird";
+import magicDrawChart from "./scripts//draw-bar-charts/draw-chart-magic";
+import wiltDrawChart from "./scripts//draw-bar-charts/draw-chart-wilt";
 
 import curryPieChart from "./scripts/draw-pie-charts/draw-pie-curry";
 import lebronPieChart from "./scripts/draw-pie-charts/draw-pie-lebron";
@@ -32,10 +32,9 @@ document.addEventListener("DOMContentLoaded", () => {
     let playerTeam = document.getElementById("player-team")
     let playerNickName = document.getElementById("player-nickname")
     let playerImg = document.getElementById("player-img")
-
-    let stats = document.querySelector(".career-stats")
-    
+    let playerBackground = document.getElementById("background")
     //stats
+    let stats = document.querySelector(".career-stats")
     let gamesPlayed = document.getElementById("G")
     let points = document.getElementById("PTS")
     let rebounds = document.getElementById("TRB")
@@ -47,7 +46,43 @@ document.addEventListener("DOMContentLoaded", () => {
     let playerEfficiencyRating = document.getElementById("PER")
     let winShares = document.getElementById("WS")
 
+    let stephIcon = document.getElementById("img0")
+    let lebronIcon = document.getElementById("img1")
+    let mjIcon = document.getElementById("img2")
+    let kobeIcon = document.getElementById("img3")
+    let shaqIcon = document.getElementById("img4")
+    let kareemIcon = document.getElementById("img5")
+    let hakeemIcon = document.getElementById("img6")
+    let birdIcon = document.getElementById("img7")
+    let magicIcon = document.getElementById("img8")
+    let wiltIcon = document.getElementById("img9")
+
+    let main = document.querySelector(".flex-box-row")
+
     curry.addEventListener("click", function() {
+        main.style.backgroundColor = "white"
+
+        stephIcon.style.filter = "grayscale(0)"
+        stephIcon.style.border = "2px solid yellow"
+        lebronIcon.style.filter = "grayscale(1)"
+        lebronIcon.style.border = "0px"
+        mjIcon.style.filter = "grayscale(1)"
+        mjIcon.style.border = "0px"
+        kobeIcon.style.filter = "grayscale(1)"
+        kobeIcon.style.border = "0px"
+        shaqIcon.style.filter = "grayscale(1)"
+        shaqIcon.style.border = "0px"
+        kareemIcon.style.filter = "grayscale(1)"
+        kareemIcon.style.border = "0px"
+        hakeemIcon.style.filter = "grayscale(1)"
+        hakeemIcon.style.border = "0px"
+        birdIcon.style.filter = "grayscale(1)"
+        birdIcon.style.border = "0px"
+        magicIcon.style.filter = "grayscale(1)"
+        magicIcon.style.border = "0px"
+        wiltIcon.style.filter = "grayscale(1)"
+        wiltIcon.style.border = "0px"
+
 
         playerName.innerHTML = players[curry.id].fullName
         playerTeam.innerHTML = players[curry.id].team
@@ -66,6 +101,7 @@ document.addEventListener("DOMContentLoaded", () => {
         winShares.innerHTML = players[curry.id].stats["WS"]
 
         stats.style.display = "block"
+        // playerBackground.style.backgroundImage = "url('/src/img/background/steph-background.png')"
 
         curryPieChart();
         curryDrawChart();
@@ -74,6 +110,29 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const lebron = document.getElementById("1")
     lebron.addEventListener("click", function () {
+        main.style.backgroundColor = "white"
+
+        stephIcon.style.filter = "grayscale(1)"
+        stephIcon.style.border = "0px"
+        lebronIcon.style.filter = "grayscale(0)"
+        lebronIcon.style.border = "2px solid yellow"
+        mjIcon.style.filter = "grayscale(1)"
+        mjIcon.style.border = "0px"
+        kobeIcon.style.filter = "grayscale(1)"
+        kobeIcon.style.border = "0px"
+        shaqIcon.style.filter = "grayscale(1)"
+        shaqIcon.style.border = "0px"
+        kareemIcon.style.filter = "grayscale(1)"
+        kareemIcon.style.border = "0px"
+        hakeemIcon.style.filter = "grayscale(1)"
+        hakeemIcon.style.border = "0px"
+        birdIcon.style.filter = "grayscale(1)"
+        birdIcon.style.border = "0px"
+        magicIcon.style.filter = "grayscale(1)"
+        magicIcon.style.border = "0px"
+        wiltIcon.style.filter = "grayscale(1)"
+        wiltIcon.style.border = "0px"
+
         playerName.innerHTML = players[1].fullName
         playerTeam.innerHTML = players[1].team
         playerNickName.innerHTML = players[1].nickname
@@ -90,12 +149,38 @@ document.addEventListener("DOMContentLoaded", () => {
         playerEfficiencyRating.innerHTML = players[lebron.id].stats["PER"]
         winShares.innerHTML = players[lebron.id].stats["WS"]
 
+        stats.style.display = "block"
+        // playerBackground.style.backgroundImage = "url('/src/img/background/lebron-background.png')"
+
         lebronDrawChart();
         lebronPieChart();
     })
 
     const mj = document.getElementById("2")
     mj.addEventListener("click", function () {
+        main.style.backgroundColor = "white"
+
+        stephIcon.style.filter = "grayscale(1)"
+        stephIcon.style.border = "0px"
+        lebronIcon.style.filter = "grayscale(1)"
+        lebronIcon.style.border = "0px"
+        mjIcon.style.filter = "grayscale(0)"
+        mjIcon.style.border = "2px solid yellow"
+        kobeIcon.style.filter = "grayscale(1)"
+        kobeIcon.style.border = "0px"
+        shaqIcon.style.filter = "grayscale(1)"
+        shaqIcon.style.border = "0px"
+        kareemIcon.style.filter = "grayscale(1)"
+        kareemIcon.style.border = "0px"
+        hakeemIcon.style.filter = "grayscale(1)"
+        hakeemIcon.style.border = "0px"
+        birdIcon.style.filter = "grayscale(1)"
+        birdIcon.style.border = "0px"
+        magicIcon.style.filter = "grayscale(1)"
+        magicIcon.style.border = "0px"
+        wiltIcon.style.filter = "grayscale(1)"
+        wiltIcon.style.border = "0px"
+
         playerName.innerHTML = players[2].fullName
         playerTeam.innerHTML = players[2].team
         playerNickName.innerHTML = players[2].nickname
@@ -112,12 +197,39 @@ document.addEventListener("DOMContentLoaded", () => {
         playerEfficiencyRating.innerHTML = players[mj.id].stats["PER"]
         winShares.innerHTML = players[mj.id].stats["WS"]
 
+        stats.style.display = "block"
+        // playerBackground.style.backgroundImage = "url('/src/img/background/mj-background.png')"
+
+
         mjDrawChart();
         mjPieChart();
     })
 
     const kobe = document.getElementById("3")
     kobe.addEventListener("click", function () {
+        main.style.backgroundColor = "white"
+
+        stephIcon.style.filter = "grayscale(1)"
+        stephIcon.style.border = "0px"
+        lebronIcon.style.filter = "grayscale(1)"
+        lebronIcon.style.border = "0px"
+        mjIcon.style.filter = "grayscale(1)"
+        mjIcon.style.border = "0px"
+        kobeIcon.style.filter = "grayscale(0)"
+        kobeIcon.style.border = "2px solid yellow"
+        shaqIcon.style.filter = "grayscale(1)"
+        shaqIcon.style.border = "0px"
+        kareemIcon.style.filter = "grayscale(1)"
+        kareemIcon.style.border = "0px"
+        hakeemIcon.style.filter = "grayscale(1)"
+        hakeemIcon.style.border = "0px"
+        birdIcon.style.filter = "grayscale(1)"
+        birdIcon.style.border = "0px"
+        magicIcon.style.filter = "grayscale(1)"
+        magicIcon.style.border = "0px"
+        wiltIcon.style.filter = "grayscale(1)"
+        wiltIcon.style.border = "0px"
+
         playerName.innerHTML = players[3].fullName
         playerTeam.innerHTML = players[3].team
         playerNickName.innerHTML = players[3].nickname
@@ -134,12 +246,39 @@ document.addEventListener("DOMContentLoaded", () => {
         playerEfficiencyRating.innerHTML = players[kobe.id].stats["PER"]
         winShares.innerHTML = players[kobe.id].stats["WS"]
 
+        stats.style.display = "block"
+        // playerBackground.style.backgroundImage = "url('/src/img/background/kobe-background.png')"
+
         kobeDrawChart();
         kobePieChart();
     })
 
     const shaq = document.getElementById("4")
     shaq.addEventListener("click", function () {
+        main.style.backgroundColor = "white"
+
+        stephIcon.style.filter = "grayscale(1)"
+        stephIcon.style.border = "0px"
+        lebronIcon.style.filter = "grayscale(1)"
+        lebronIcon.style.border = "0px"
+        mjIcon.style.filter = "grayscale(1)"
+        mjIcon.style.border = "0px"
+        kobeIcon.style.filter = "grayscale(1)"
+        kobeIcon.style.border = "0px"
+        shaqIcon.style.filter = "grayscale(0)"
+        shaqIcon.style.border = "2px solid yellow"
+        kareemIcon.style.filter = "grayscale(1)"
+        kareemIcon.style.border = "0px"
+        hakeemIcon.style.filter = "grayscale(1)"
+        hakeemIcon.style.border = "0px"
+        birdIcon.style.filter = "grayscale(1)"
+        birdIcon.style.border = "0px"
+        magicIcon.style.filter = "grayscale(1)"
+        magicIcon.style.border = "0px"
+        wiltIcon.style.filter = "grayscale(1)"
+        wiltIcon.style.border = "0px"
+
+        wiltIcon.style.border = "0px"
         playerName.innerHTML = players[4].fullName
         playerTeam.innerHTML = players[4].team
         playerNickName.innerHTML = players[4].nickname
@@ -156,6 +295,8 @@ document.addEventListener("DOMContentLoaded", () => {
         playerEfficiencyRating.innerHTML = players[shaq.id].stats["PER"]
         winShares.innerHTML = players[shaq.id].stats["WS"]
 
+        stats.style.display = "block"
+        // playerBackground.style.backgroundImage = "url('/src/img/background/shaq-background.png')"
 
         shaqDrawChart();
         shaqPieChart();
@@ -163,6 +304,29 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const kareem = document.getElementById("5")
     kareem.addEventListener("click", function () {
+        main.style.backgroundColor = "white"
+
+        stephIcon.style.filter = "grayscale(1)"
+        stephIcon.style.border = "0px"
+        lebronIcon.style.filter = "grayscale(1)"
+        lebronIcon.style.border = "0px"
+        mjIcon.style.filter = "grayscale(1)"
+        mjIcon.style.border = "0px"
+        kobeIcon.style.filter = "grayscale(1)"
+        kobeIcon.style.border = "0px"
+        shaqIcon.style.filter = "grayscale(1)"
+        shaqIcon.style.border = "0px"
+        kareemIcon.style.filter = "grayscale(0)"
+        kareemIcon.style.border = "2px solid yellow"
+        hakeemIcon.style.filter = "grayscale(1)"
+        hakeemIcon.style.border = "0px"
+        birdIcon.style.filter = "grayscale(1)"
+        birdIcon.style.border = "0px"
+        magicIcon.style.filter = "grayscale(1)"
+        magicIcon.style.border = "0px"
+        wiltIcon.style.filter = "grayscale(1)"
+        wiltIcon.style.border = "0px"
+
         playerName.innerHTML = players[5].fullName
         playerTeam.innerHTML = players[5].team
         playerNickName.innerHTML = players[5].nickname
@@ -179,6 +343,9 @@ document.addEventListener("DOMContentLoaded", () => {
         playerEfficiencyRating.innerHTML = players[kareem.id].stats["PER"]
         winShares.innerHTML = players[kareem.id].stats["WS"]
 
+        stats.style.display = "block"
+        // playerBackground.style.backgroundImage = "url('/src/img/background/kareem-background.png')"
+
 
         kareemDrawChart();
         kareemPieChart();
@@ -186,6 +353,29 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const hakeem = document.getElementById("6")
     hakeem.addEventListener("click", function () {
+        main.style.backgroundColor = "white";
+
+        stephIcon.style.filter = "grayscale(1)"
+        stephIcon.style.border = "0px"
+        lebronIcon.style.filter = "grayscale(1)"
+        lebronIcon.style.border = "0px"
+        mjIcon.style.filter = "grayscale(1)"
+        mjIcon.style.border = "0px"
+        kobeIcon.style.filter = "grayscale(1)"
+        kobeIcon.style.border = "0px"
+        shaqIcon.style.filter = "grayscale(1)"
+        shaqIcon.style.border = "0px"
+        kareemIcon.style.filter = "grayscale(1)"
+        kareemIcon.style.border = "0px"
+        hakeemIcon.style.filter = "grayscale(0)"
+        hakeemIcon.style.border = "2px solid yellow"
+        birdIcon.style.filter = "grayscale(1)"
+        birdIcon.style.border = "0px"
+        magicIcon.style.filter = "grayscale(1)"
+        magicIcon.style.border = "0px"
+        wiltIcon.style.filter = "grayscale(1)"
+        wiltIcon.style.border = "0px"
+
         playerName.innerHTML = players[6].fullName
         playerTeam.innerHTML = players[6].team
         playerNickName.innerHTML = players[6].nickname
@@ -202,12 +392,38 @@ document.addEventListener("DOMContentLoaded", () => {
         playerEfficiencyRating.innerHTML = players[hakeem.id].stats["PER"]
         winShares.innerHTML = players[hakeem.id].stats["WS"]
 
+        stats.style.display = "block"
+        // playerBackground.style.backgroundImage = "url('/src/img/background/hakeem-background.png')"
+
         hakeemDrawChart();
         hakeemPieChart();
     })
 
     const bird = document.getElementById("7")
     bird.addEventListener("click", function () {
+        main.style.backgroundColor = "white";
+
+        stephIcon.style.filter = "grayscale(1)"
+        stephIcon.style.border = "0px"
+        lebronIcon.style.filter = "grayscale(1)"
+        lebronIcon.style.border = "0px"
+        mjIcon.style.filter = "grayscale(1)"
+        mjIcon.style.border = "0px"
+        kobeIcon.style.filter = "grayscale(1)"
+        kobeIcon.style.border = "0px"
+        shaqIcon.style.filter = "grayscale(1)"
+        shaqIcon.style.border = "0px"
+        kareemIcon.style.filter = "grayscale(1)"
+        kareemIcon.style.border = "0px"
+        hakeemIcon.style.filter = "grayscale(1)"
+        hakeemIcon.style.border = "0px"
+        birdIcon.style.filter = "grayscale(0)"
+        birdIcon.style.border = "2px solid yellow"
+        magicIcon.style.filter = "grayscale(1)"
+        magicIcon.style.border = "0px"
+        wiltIcon.style.filter = "grayscale(1)"
+        wiltIcon.style.border = "0px"
+
         playerName.innerHTML = players[7].fullName
         playerTeam.innerHTML = players[7].team
         playerNickName.innerHTML = players[7].nickname
@@ -224,12 +440,38 @@ document.addEventListener("DOMContentLoaded", () => {
         playerEfficiencyRating.innerHTML = players[bird.id].stats["PER"]
         winShares.innerHTML = players[bird.id].stats["WS"]
 
+        stats.style.display = "block"
+        // playerBackground.style.backgroundImage = "url('/src/img/background/bird-background.png')"
+
         birdDrawChart();
         birdPieChart();
     })
 
     const magic = document.getElementById("8")
     magic.addEventListener("click", function () {
+        main.style.backgroundColor = "white";
+
+        stephIcon.style.filter = "grayscale(1)"
+        stephIcon.style.border = "0px"
+        lebronIcon.style.filter = "grayscale(1)"
+        lebronIcon.style.border = "0px"
+        mjIcon.style.filter = "grayscale(1)"
+        mjIcon.style.border = "0px"
+        kobeIcon.style.filter = "grayscale(1)"
+        kobeIcon.style.border = "0px"
+        shaqIcon.style.filter = "grayscale(1)"
+        shaqIcon.style.border = "0px"
+        kareemIcon.style.filter = "grayscale(1)"
+        kareemIcon.style.border = "0px"
+        hakeemIcon.style.filter = "grayscale(1)"
+        hakeemIcon.style.border = "0px"
+        birdIcon.style.filter = "grayscale(1)"
+        birdIcon.style.border = "0px"
+        magicIcon.style.filter = "grayscale(0)"
+        magicIcon.style.border = "2px solid yellow"
+        wiltIcon.style.filter = "grayscale(1)"
+        wiltIcon.style.border = "0px"
+
         playerName.innerHTML = players[8].fullName
         playerTeam.innerHTML = players[8].team
         playerNickName.innerHTML = players[8].nickname
@@ -246,12 +488,38 @@ document.addEventListener("DOMContentLoaded", () => {
         playerEfficiencyRating.innerHTML = players[magic.id].stats["PER"]
         winShares.innerHTML = players[magic.id].stats["WS"]
 
+        stats.style.display = "block"
+        // playerBackground.style.backgroundImage = "url('/src/img/background/magic-background.png')"
+
         magicDrawChart();
         magicPieChart();
     })
 
-    const wilt = document.getElementById("8")
+    const wilt = document.getElementById("9")
     wilt.addEventListener("click", function () {
+        main.style.backgroundColor = "white";
+        
+        stephIcon.style.filter = "grayscale(1)"
+        stephIcon.style.border = "0px"
+        lebronIcon.style.filter = "grayscale(1)"
+        lebronIcon.style.border = "0px"
+        mjIcon.style.filter = "grayscale(1)"
+        mjIcon.style.border = "0px"
+        kobeIcon.style.filter = "grayscale(1)"
+        kobeIcon.style.border = "0px"
+        shaqIcon.style.filter = "grayscale(1)"
+        shaqIcon.style.border = "0px"
+        kareemIcon.style.filter = "grayscale(1)"
+        kareemIcon.style.border = "0px"
+        hakeemIcon.style.filter = "grayscale(1)"
+        hakeemIcon.style.border = "0px"
+        birdIcon.style.filter = "grayscale(1)"
+        birdIcon.style.border = "0px"
+        magicIcon.style.filter = "grayscale(1)"
+        magicIcon.style.border = "0px"
+        wiltIcon.style.filter = "grayscale(0)"
+        wiltIcon.style.border = "2px solid yellow"
+
         playerName.innerHTML = players[9].fullName
         playerTeam.innerHTML = players[9].team
         playerNickName.innerHTML = players[9].nickname
@@ -267,6 +535,9 @@ document.addEventListener("DOMContentLoaded", () => {
         effectiveFieldGoalPercentage.innerHTML = players[wilt.id].stats["eFG%"]
         playerEfficiencyRating.innerHTML = players[wilt.id].stats["PER"]
         winShares.innerHTML = players[wilt.id].stats["WS"]
+
+        stats.style.display = "block"
+        // playerBackground.style.backgroundImage = "url('/src/img/background/wilt-background.png')"
 
         wiltDrawChart();
         wiltPieChart();
