@@ -69,6 +69,9 @@ document.addEventListener("DOMContentLoaded", () => {
     let img3 = document.getElementById("gallery3")
 
     let video = document.getElementById("video")
+    let title1 = document.getElementById("title1")
+    let title2 = document.getElementById("title2")
+
 
     const curry = document.getElementById("0")
     curry.addEventListener("click", function() {
@@ -123,6 +126,10 @@ document.addEventListener("DOMContentLoaded", () => {
         img2.src = "/src/img/gallery/steph2.png"
         img3.src = "/src/img/gallery/steph3.png"
 
+        video.style.display = "block"
+        title1.style.display = "block"
+        title2.style.display = "block"
+
         curryPieChart();
         curryDrawChart();
         
@@ -175,10 +182,15 @@ document.addEventListener("DOMContentLoaded", () => {
         // playerBackground.style.backgroundImage = "url('/src/img/background/lebron-background.png')"
 
         imgContainer.style.display = "block"
-        img1.src = "/src/img/gallery/lebron-video.mp4"
-        img1.muted = true
+        video.src = "/src/img/gallery/lebron-video.mp4"
+        img1.src = "/src/img/gallery/lebron1.png"
         img2.src = "/src/img/gallery/lebron2.png"
         img3.src = "/src/img/gallery/lebron3.png"
+
+        video.style.display = "block"
+        title1.style.display = "block"
+        title2.style.display = "block"
+
 
 
         lebronDrawChart();
@@ -231,6 +243,17 @@ document.addEventListener("DOMContentLoaded", () => {
         instructions.style.display = "none"
         // playerBackground.style.backgroundImage = "url('/src/img/background/mj-background.png')"
 
+        imgContainer.style.display = "block"
+        video.src = "/src/img/gallery/mj-video.mp4"
+        img1.src = "/src/img/gallery/mj1.png"
+        img2.src = "/src/img/gallery/mj2.png"
+        img3.src = "/src/img/gallery/mj3.png"
+
+        video.style.display = "block"
+        title1.style.display = "block"
+        title2.style.display = "block"
+
+
 
         mjDrawChart();
         mjPieChart();
@@ -281,6 +304,16 @@ document.addEventListener("DOMContentLoaded", () => {
         stats.style.display = "block"
         instructions.style.display = "none"
         // playerBackground.style.backgroundImage = "url('/src/img/background/kobe-background.png')"
+
+        imgContainer.style.display = "block"
+        video.src = "/src/img/gallery/kobe-video.mp4"
+        img1.src = "/src/img/gallery/kobe1.png"
+        img2.src = "/src/img/gallery/kobe2.png"
+        img3.src = "/src/img/gallery/kobegit 3.png"
+
+        video.style.display = "block"
+        title1.style.display = "block"
+        title2.style.display = "block"
 
         kobeDrawChart();
         kobePieChart();

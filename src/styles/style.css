@@ -36,7 +36,6 @@ h2 {
 }
 
 h3 {
-    padding-top: 40px;
     font-family: 'Rock Salt', cursive;
     text-align: center;
 }
@@ -90,4 +89,8 @@ h1 {
     color: whitesmoke;
     font-weight: bold;
     margin-top: 0;
+}
+
+#title1, #title2 , #video{
+    display: none;
 }
