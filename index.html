@@ -7,14 +7,19 @@
     <link rel="stylesheet" href="./dist/main.css">
     <link rel="stylesheet" href="./src/styles/player-nav-bar.css">
     <link rel="stylesheet" href="./src/styles/career-stats.css">
+    <link rel="stylesheet" href="./src/styles/instructions.css">
     <link rel="stylesheet" href="./src/styles/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
 
     <script src="./dist/main.js"></script>
     <title>Who is the NBA GOAT?</title>
 </head>
 
     <header>
-        <!-- <h1>NBA GOAT PROJECT</h1> -->
+        <h1>THE NBA GOAT DEBATE</h1>
     </header>
 
 <body id="background">
@@ -32,6 +37,13 @@
             <li id="9"><img id="img9" src="./src/img/icons/wilt_icon.png"></img></li>
         </ul>
     </nav>
+
+    <div id="instructions">
+        This webpage has a list of 10 players that are commonly mentioned when it comes to the NBA GOAT debate.
+        "G.O.A.T." stands for greatest of all time. Everyone has their own GOAT, there is alot of disagreements in the sports media 
+        about who is the greatet of all time. This webpage allows you toggle between each different player dynamically 
+        and will display a player profile so you can gain a better understanding of their career stats and achievements.
+    </div>
 
     <div class="flex-box-container">
         <div class="flex-box-row">
@@ -79,63 +91,33 @@
             <div id="pieChartContainer" style="height: 250px; width: 400px;"></div>
 
 
-            <!-- <h2 style="text-align:center"></h2>
-            
             <div class="container">
                 <div class="mySlides">
-                    <img src="/src/img/gallery/steph1.png" style="width:25%">
+                    <img id="img1" src="/src/img/gallery/steph1.png" width="400" height="200">
                 </div>
             
                 <div class="mySlides">
-                    <img src="/src/img/gallery/steph2.png" style="width:25%">
+                    <img id="img2" src="/src/img/gallery/steph2.png" width="400" height="200">
                 </div>
             
                 <div class="mySlides">
-                    <img src="/src/img/gallery/steph3.png" style="width:25%">
+                    <img id="img3" src="/src/img/gallery/steph3.png" width="400" height="200">
                 </div>
             
             
                 <a class="prev" onclick="plusSlides(-1)">❮</a>
                 <a class="next" onclick="plusSlides(1)">❯</a>
             
-                <div class="caption-container">
-                    <p id="caption"></p>
-                </div>
-            
             </div>
-    </div> -->
 
-    <!-- <script>
-        var slideIndex = 1;
-        showSlides(slideIndex);
 
-        function plusSlides(n) {
-            showSlides(slideIndex += n);
-        }
 
-        function currentSlide(n) {
-            showSlides(slideIndex = n);
-        }
 
-        function showSlides(n) {
-            var i;
-            var slides = document.getElementsByClassName("mySlides");
-            var dots = document.getElementsByClassName("demo");
-            var captionText = document.getElementById("caption");
-            if (n > slides.length) { slideIndex = 1 }
-            if (n < 1) { slideIndex = slides.length }
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " active";
-            captionText.innerHTML = dots[slideIndex - 1].alt;
-        }
-    </script> -->
-    
+        </div>
+
+        
+    </div>  
+
 
     <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 </body>

@@ -27,13 +27,16 @@ import wiltPieChart from "./scripts/draw-pie-charts/draw-pie-wilt";
 document.addEventListener("DOMContentLoaded", () => {
 
 
-    const curry = document.getElementById("0")
+    let instructions = document.getElementById("instructions")
+
+
     let playerName = document.getElementById("player-name")
     let playerTeam = document.getElementById("player-team")
     let playerNickName = document.getElementById("player-nickname")
     let playerImg = document.getElementById("player-img")
     let playerBackground = document.getElementById("background")
     let playerQuote = document.getElementById("player-quote")
+
     //stats
     let stats = document.querySelector(".career-stats")
     let gamesPlayed = document.getElementById("G")
@@ -60,6 +63,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let main = document.querySelector(".flex-box-row")
 
+    const curry = document.getElementById("0")
     curry.addEventListener("click", function() {
         main.style.backgroundColor = "white"
 
@@ -103,6 +107,7 @@ document.addEventListener("DOMContentLoaded", () => {
         winShares.innerHTML = players[curry.id].stats["WS"]
 
         stats.style.display = "block"
+        instructions.style.display ="none"
         // playerBackground.style.backgroundImage = "url('/src/img/background/steph-background.png')"
 
         curryPieChart();
@@ -153,6 +158,7 @@ document.addEventListener("DOMContentLoaded", () => {
         winShares.innerHTML = players[lebron.id].stats["WS"]
 
         stats.style.display = "block"
+        instructions.style.display = "none"
         // playerBackground.style.backgroundImage = "url('/src/img/background/lebron-background.png')"
 
         lebronDrawChart();
@@ -202,6 +208,7 @@ document.addEventListener("DOMContentLoaded", () => {
         winShares.innerHTML = players[mj.id].stats["WS"]
 
         stats.style.display = "block"
+        instructions.style.display = "none"
         // playerBackground.style.backgroundImage = "url('/src/img/background/mj-background.png')"
 
 
@@ -252,6 +259,7 @@ document.addEventListener("DOMContentLoaded", () => {
         winShares.innerHTML = players[kobe.id].stats["WS"]
 
         stats.style.display = "block"
+        instructions.style.display = "none"
         // playerBackground.style.backgroundImage = "url('/src/img/background/kobe-background.png')"
 
         kobeDrawChart();
@@ -302,6 +310,7 @@ document.addEventListener("DOMContentLoaded", () => {
         winShares.innerHTML = players[shaq.id].stats["WS"]
 
         stats.style.display = "block"
+        instructions.style.display = "none"
         // playerBackground.style.backgroundImage = "url('/src/img/background/shaq-background.png')"
 
         shaqDrawChart();
@@ -351,6 +360,7 @@ document.addEventListener("DOMContentLoaded", () => {
         winShares.innerHTML = players[kareem.id].stats["WS"]
 
         stats.style.display = "block"
+        instructions.style.display = "none"
         // playerBackground.style.backgroundImage = "url('/src/img/background/kareem-background.png')"
 
 
@@ -401,6 +411,7 @@ document.addEventListener("DOMContentLoaded", () => {
         winShares.innerHTML = players[hakeem.id].stats["WS"]
 
         stats.style.display = "block"
+        instructions.style.display = "none"
         // playerBackground.style.backgroundImage = "url('/src/img/background/hakeem-background.png')"
 
         hakeemDrawChart();
@@ -450,6 +461,7 @@ document.addEventListener("DOMContentLoaded", () => {
         winShares.innerHTML = players[bird.id].stats["WS"]
 
         stats.style.display = "block"
+        instructions.style.display = "none"
         // playerBackground.style.backgroundImage = "url('/src/img/background/bird-background.png')"
 
         birdDrawChart();
@@ -499,6 +511,7 @@ document.addEventListener("DOMContentLoaded", () => {
         winShares.innerHTML = players[magic.id].stats["WS"]
 
         stats.style.display = "block"
+        instructions.style.display = "none"
         // playerBackground.style.backgroundImage = "url('/src/img/background/magic-background.png')"
 
         magicDrawChart();
@@ -548,6 +561,7 @@ document.addEventListener("DOMContentLoaded", () => {
         winShares.innerHTML = players[wilt.id].stats["WS"]
 
         stats.style.display = "block"
+        instructions.style.display = "none"
         // playerBackground.style.backgroundImage = "url('/src/img/background/wilt-background.png')"
 
         wiltDrawChart();

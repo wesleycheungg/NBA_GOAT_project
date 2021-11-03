@@ -5,10 +5,10 @@ The Goat Debate project is a data visualization webpage that allows the user to 
 
 ## Functionality & MVPs
 In the Goat Debate project, users will be able to:
-* Toggle through the different players -> will then populate career statistics and achievements.
-* Hover over charts of career statistics and achievements for more detailed information.
+* Toggle through the different players -> will then populate player profile
+* Click on icon, icon will be colored with a yellow border to show player selected
 * Click on a button to upvote a player as their "GOAT". 
-* The leadeboard table will dymanically update visually once user has upvoted player.
+* Interactive image gallery that allows you to click through
 
 In addition, this project will include:
 * A production README
