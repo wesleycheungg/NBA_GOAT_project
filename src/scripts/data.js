@@ -206,7 +206,7 @@ const players = [
     {
         id: 6,
         fullName: "Hakeem Olajuwon",
-        jerseyNumber: 33,
+        jerseyNumber: 34,
         team: "Houston Rockets",
         position: "Center",
         shoots: "Right-Handed",
@@ -238,6 +238,113 @@ const players = [
             "NBA Titles": 2
         }
     },
+
+    {
+        id: 7,
+        fullName: "Larry Bird",
+        jerseyNumber: 33,
+        team: "Boston Celtics",
+        position: ["Small Forward", " Power Forward"],
+        shoots: "Right-Handed",
+        img: "",
+        nickname: ["Larry Legend"],
+        stats: {
+            Summary: "Career",
+            G: "897",
+            PTS: "24.3",
+            TRB: "10",
+            AST: "6.3",
+            "FG%": "49.6",
+            "FG3%": "37.6",
+            "FT%": "88.6",
+            "eFG%": "51.4",
+            PER: "23.5",
+            WS: "145.8"
+        },
+        accolades: {
+            "Rookie of the Year": 0,
+            "Defensive Player of the Year": 2,
+            "All Stars": 12,
+            "Scoring Champ": 0,
+            "All-Defensive": 3,
+            "All-NBA": 10,
+            "NBA-Finals MVP": 2,
+            MVP: 3,
+            "NBA Titles": 3
+        }
+    },
+
+    {
+        id: 8,
+        fullName: "Magic Johnson",
+        jerseyNumber: 32,
+        team: "Los Angeles Lakers",
+        position: ["Point Guard", " Shooting Guard", " Power Forward"],
+        shoots: "Right-Handed",
+        img: "",
+        nickname: "Magic",
+        stats: {
+            Summary: "Career",
+            G: "906",
+            PTS: "19.5",
+            TRB: "7.2",
+            AST: "11.2",
+            "FG%": "52.0",
+            "FG3%": "30.3",
+            "FT%": "84.8",
+            "eFG%": "53.3",
+            PER: "24.1",
+            WS: "155.8"
+        },
+        accolades: {
+            "Rookie of the Year": 0,
+            "Steal Champ": 2,
+            "Assist Champ": 4,
+            "All Stars": 12,
+            "Scoring Champ": 0,
+            "All-NBA": 10,
+            "NBA-Finals MVP": 3,
+            MVP: 3,
+            "NBA Titles": 5
+        }
+    },
+
+    {
+        id: 9,
+        fullName: "Wilt Chamberlain",
+        jerseyNumber: 13,
+        team: "Los Angeles Lakers",
+        position: "Center",
+        shoots: "Right-Handed",
+        img: "",
+        nickname: ["Wilt the Stilt", " The Big Dipper"],
+        stats: {
+            Summary: "Career",
+            G: "1045",
+            PTS: "30.1",
+            TRB: "22.9",
+            AST: "4.4",
+            "FG%": "54.0",
+            "FG3%": "n/a",
+            "FT%": "51.1",
+            "eFG%": "n/a",
+            PER: "26.1",
+            WS: "247.3"
+        },
+        accolades: {
+            "Rookie of the Year": 1,
+            "Total Rebound Champ": 11,
+            "Assist Champ": 1,
+            "All Stars": 13,
+            "Scoring Champ": 7,
+            "All-Defensiive": 2,
+            "All-NBA": 10,
+            "NBA-Finals MVP": 1,
+            MVP: 4,
+            "NBA Titles": 2
+        }
+    },
+
 
 
 ]

@@ -1,17 +1,13 @@
-function hakeemPieChart() {
-    CanvasJS.addColorSet("shaq",
+function birdPieChart() {
+    CanvasJS.addColorSet("bird",
         [//colorSet Array
-            "#BA0C2F",
-            "#753BBD"
-
-
-
+            "#BA9653"
         ]);
 
 
     var chart = new CanvasJS.Chart("pieChartContainer", {
         animationEnabled: true,
-        colorSet: "hakeem",
+        colorSet: "bird",
         title: {
             text: "Teams Played For"
         },
@@ -21,9 +17,7 @@ function hakeemPieChart() {
             yValueFormatString: "##0.00\"%\"",
             indexLabel: "{label} {y}",
             dataPoints: [
-                { y: 95, label: "HOUSTON ROCKETS (1984-2001)" },
-                { y: 5, label: "TORONTO RAPTORS (2001-2002)" },
-
+                { y: 100, label: "BOSTON CELTICS (1979-1992)" }
             ]
         }]
     });
@@ -31,4 +25,4 @@ function hakeemPieChart() {
 
 }
 
-export default hakeemPieChart;
+export default birdPieChart;

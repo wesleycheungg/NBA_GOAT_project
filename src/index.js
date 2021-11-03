@@ -8,6 +8,9 @@ import kobeDrawChart from "./scripts/draw-chart-kobe";
 import shaqDrawChart from "./scripts/draw-chart-shaq";
 import kareemDrawChart from "./scripts/draw-chart-kareem";
 import hakeemDrawChart from "./scripts/draw-chart-hakeem";
+import birdDrawChart from "./scripts/draw-chart-bird";
+import magicDrawChart from "./scripts/draw-chart-magic";
+import wiltDrawChart from "./scripts/draw-chart-wilt";
 
 import curryPieChart from "./scripts/draw-pie-charts/draw-pie-curry";
 import lebronPieChart from "./scripts/draw-pie-charts/draw-pie-lebron";
@@ -16,6 +19,9 @@ import kobePieChart from "./scripts/draw-pie-charts/draw-pie-kobe";
 import shaqPieChart from "./scripts/draw-pie-charts/draw-pie-shaq";
 import kareemPieChart from "./scripts/draw-pie-charts/draw-pie-kareem";
 import hakeemPieChart from "./scripts/draw-pie-charts/draw-pie-hakeem";
+import birdPieChart from "./scripts/draw-pie-charts/draw-pie-bird";
+import magicPieChart from "./scripts/draw-pie-charts/draw-pie-magic";
+import wiltPieChart from "./scripts/draw-pie-charts/draw-pie-wilt";
 
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -182,7 +188,7 @@ document.addEventListener("DOMContentLoaded", () => {
     hakeem.addEventListener("click", function () {
         playerName.innerHTML = players[6].fullName
         playerTeam.innerHTML = players[6].team
-        playerNickName.innerHTML = players[5].nickname
+        playerNickName.innerHTML = players[6].nickname
         playerImg.src = "./src/img/bio/hakeem-bio.png"
 
         gamesPlayed.innerHTML = players[hakeem.id].stats["G"]
@@ -196,9 +202,74 @@ document.addEventListener("DOMContentLoaded", () => {
         playerEfficiencyRating.innerHTML = players[hakeem.id].stats["PER"]
         winShares.innerHTML = players[hakeem.id].stats["WS"]
 
-
         hakeemDrawChart();
         hakeemPieChart();
+    })
+
+    const bird = document.getElementById("7")
+    bird.addEventListener("click", function () {
+        playerName.innerHTML = players[7].fullName
+        playerTeam.innerHTML = players[7].team
+        playerNickName.innerHTML = players[7].nickname
+        playerImg.src = "./src/img/bio/bird-bio.png"
+
+        gamesPlayed.innerHTML = players[bird.id].stats["G"]
+        points.innerHTML = players[bird.id].stats["PTS"]
+        rebounds.innerHTML = players[bird.id].stats["TRB"]
+        assists.innerHTML = players[bird.id].stats["AST"]
+        fieldGoalsPercentage.innerHTML = players[bird.id].stats["FG%"]
+        threePointFieldGoalPercentage.innerHTML = players[bird.id].stats["FG3%"]
+        freeThrowPercentage.innerHTML = players[bird.id].stats["FT%"]
+        effectiveFieldGoalPercentage.innerHTML = players[bird.id].stats["eFG%"]
+        playerEfficiencyRating.innerHTML = players[bird.id].stats["PER"]
+        winShares.innerHTML = players[bird.id].stats["WS"]
+
+        birdDrawChart();
+        birdPieChart();
+    })
+
+    const magic = document.getElementById("8")
+    magic.addEventListener("click", function () {
+        playerName.innerHTML = players[8].fullName
+        playerTeam.innerHTML = players[8].team
+        playerNickName.innerHTML = players[8].nickname
+        playerImg.src = "./src/img/bio/magic-bio.png"
+
+        gamesPlayed.innerHTML = players[magic.id].stats["G"]
+        points.innerHTML = players[magic.id].stats["PTS"]
+        rebounds.innerHTML = players[magic.id].stats["TRB"]
+        assists.innerHTML = players[magic.id].stats["AST"]
+        fieldGoalsPercentage.innerHTML = players[magic.id].stats["FG%"]
+        threePointFieldGoalPercentage.innerHTML = players[magic.id].stats["FG3%"]
+        freeThrowPercentage.innerHTML = players[magic.id].stats["FT%"]
+        effectiveFieldGoalPercentage.innerHTML = players[magic.id].stats["eFG%"]
+        playerEfficiencyRating.innerHTML = players[magic.id].stats["PER"]
+        winShares.innerHTML = players[magic.id].stats["WS"]
+
+        magicDrawChart();
+        magicPieChart();
+    })
+
+    const wilt = document.getElementById("8")
+    wilt.addEventListener("click", function () {
+        playerName.innerHTML = players[9].fullName
+        playerTeam.innerHTML = players[9].team
+        playerNickName.innerHTML = players[9].nickname
+        playerImg.src = "./src/img/bio/wilt-bio.png"
+
+        gamesPlayed.innerHTML = players[wilt.id].stats["G"]
+        points.innerHTML = players[wilt.id].stats["PTS"]
+        rebounds.innerHTML = players[wilt.id].stats["TRB"]
+        assists.innerHTML = players[wilt.id].stats["AST"]
+        fieldGoalsPercentage.innerHTML = players[wilt.id].stats["FG%"]
+        threePointFieldGoalPercentage.innerHTML = players[wilt.id].stats["FG3%"]
+        freeThrowPercentage.innerHTML = players[wilt.id].stats["FT%"]
+        effectiveFieldGoalPercentage.innerHTML = players[wilt.id].stats["eFG%"]
+        playerEfficiencyRating.innerHTML = players[wilt.id].stats["PER"]
+        winShares.innerHTML = players[wilt.id].stats["WS"]
+
+        wiltDrawChart();
+        wiltPieChart();
     })
 
 })
