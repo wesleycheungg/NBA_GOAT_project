@@ -147,7 +147,7 @@ const players = [
         shoots: "Right-Handed",
         img: "",
         nickname: ["Shaq", " Diesel", " Superman"],
-        quote: "To me, Shaq was the most dominant. I would say Michael is probably the most unstoppable, but when you talk about dominant like we used to try tostop Shaq from running like that was kinda the gameplan. Don't let Shaq run. Don't even think about him getting the ball; just stop him from running. He gonna beat most of the players down the court. -Scottie Pippen",
+        quote: "To me, Shaq was the most dominant. I would say Michael is probably the most unstoppable, but when you talk about dominant like we used to try to stop Shaq from running like that was kinda the gameplan. Don't let Shaq run. Don't even think about him getting the ball; just stop him from running. He gonna beat most of the players down the court. -Scottie Pippen",
         stats: {
             Summary: "Career",
             G: "1207",
@@ -182,6 +182,7 @@ const players = [
         shoots: "Right-Handed",
         img: "",
         nickname: ["Lew", " Cap", " Murdock"],
+        quote: "When I look at Kareem Abdul-Jabbar’s six championships, six or seven MVPs, scored the most points than anybody in the NBA, lost one game in college, lost one game in high school, and didn’t lose in grade school. To me, that’s the GOAT. -Danny Green",
         stats: {
             Summary: "Career",
             G: "1560",
@@ -217,6 +218,7 @@ const players = [
         shoots: "Right-Handed",
         img: "",
         nickname: ["The Dream", " Little Moses"],
+        quote: "He’s the only player in NBA history to win MVP, Defensive Player of the Year and Finals MVP in the same year. You look at all these players who accomplished so much. No one has ever accomplished that feat. -Paul Pierce",
         stats: {
             Summary: "Career",
             G: "1238",
@@ -253,6 +255,7 @@ const players = [
         shoots: "Right-Handed",
         img: "",
         nickname: ["Larry Legend"],
+        quote: "Larry Bird may have been the best I played against - he could do anything. This muscle here (he pointed to his brain) was his greatest. Shooting, rebounds, assists, steals - he was always positioned at the right place at the right time. And he was a great competitor, I have much respect for him. -Kareem Abdul-Jabbar",
         stats: {
             Summary: "Career",
             G: "897",
@@ -288,6 +291,7 @@ const players = [
         shoots: "Right-Handed",
         img: "",
         nickname: "Magic",
+        quote: "I think the greatest player I've ever played against was Magic Johnson. Next, was Larry Bird. Then, Kareem Abdul-Jabbar. -John Salley",
         stats: {
             Summary: "Career",
             G: "906",
@@ -323,6 +327,7 @@ const players = [
         shoots: "Right-Handed",
         img: "",
         nickname: ["Wilt the Stilt", " The Big Dipper"],
+        quote: "When I started to play with him, he helped make me a better player. We seemed to have a real good feel together, I think it translated into a confidence with him. All players are generally judged by the number of championships they won. Unfortunately, he only won two. His greatness as a basketball player can't be questioned. He was fun, we used to laugh at him a lot, some of the things that would happen. I once told him, no one roots for Goliath. -Jerry West",
         stats: {
             Summary: "Career",
             G: "1045",

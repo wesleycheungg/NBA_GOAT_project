@@ -333,10 +333,11 @@ document.addEventListener("DOMContentLoaded", () => {
         wiltIcon.style.filter = "grayscale(1)"
         wiltIcon.style.border = "0px"
 
-        playerName.innerHTML = players[5].fullName
-        playerTeam.innerHTML = players[5].team
-        playerNickName.innerHTML = players[5].nickname
+        playerName.innerHTML = players[kareem.id].fullName
+        playerTeam.innerHTML = players[kareem.id].team
+        playerNickName.innerHTML = players[kareem.id].nickname
         playerImg.src = "./src/img/bio/kareem-bio.png"
+        playerQuote.innerHTML = players[kareem.id].quote
 
         gamesPlayed.innerHTML = players[kareem.id].stats["G"]
         points.innerHTML = players[kareem.id].stats["PTS"]
@@ -382,10 +383,11 @@ document.addEventListener("DOMContentLoaded", () => {
         wiltIcon.style.filter = "grayscale(1)"
         wiltIcon.style.border = "0px"
 
-        playerName.innerHTML = players[6].fullName
-        playerTeam.innerHTML = players[6].team
-        playerNickName.innerHTML = players[6].nickname
+        playerName.innerHTML = players[hakeem.id].fullName
+        playerTeam.innerHTML = players[hakeem.id].team
+        playerNickName.innerHTML = players[hakeem.id].nickname
         playerImg.src = "./src/img/bio/hakeem-bio.png"
+        playerQuote.innerHTML = players[hakeem.id].quote
 
         gamesPlayed.innerHTML = players[hakeem.id].stats["G"]
         points.innerHTML = players[hakeem.id].stats["PTS"]
@@ -430,10 +432,11 @@ document.addEventListener("DOMContentLoaded", () => {
         wiltIcon.style.filter = "grayscale(1)"
         wiltIcon.style.border = "0px"
 
-        playerName.innerHTML = players[7].fullName
-        playerTeam.innerHTML = players[7].team
-        playerNickName.innerHTML = players[7].nickname
+        playerName.innerHTML = players[bird.id].fullName
+        playerTeam.innerHTML = players[bird.id].team
+        playerNickName.innerHTML = players[bird.id].nickname
         playerImg.src = "./src/img/bio/bird-bio.png"
+        playerQuote.innerHTML = players[bird.id].quote
 
         gamesPlayed.innerHTML = players[bird.id].stats["G"]
         points.innerHTML = players[bird.id].stats["PTS"]
@@ -478,10 +481,11 @@ document.addEventListener("DOMContentLoaded", () => {
         wiltIcon.style.filter = "grayscale(1)"
         wiltIcon.style.border = "0px"
 
-        playerName.innerHTML = players[8].fullName
-        playerTeam.innerHTML = players[8].team
-        playerNickName.innerHTML = players[8].nickname
+        playerName.innerHTML = players[magic.id].fullName
+        playerTeam.innerHTML = players[magic.id].team
+        playerNickName.innerHTML = players[magic.id].nickname
         playerImg.src = "./src/img/bio/magic-bio.png"
+        playerQuote.innerHTML = players[magic.id].quote
 
         gamesPlayed.innerHTML = players[magic.id].stats["G"]
         points.innerHTML = players[magic.id].stats["PTS"]
@@ -526,10 +530,11 @@ document.addEventListener("DOMContentLoaded", () => {
         wiltIcon.style.filter = "grayscale(0)"
         wiltIcon.style.border = "2px solid yellow"
 
-        playerName.innerHTML = players[9].fullName
-        playerTeam.innerHTML = players[9].team
-        playerNickName.innerHTML = players[9].nickname
+        playerName.innerHTML = players[wilt.id].fullName
+        playerTeam.innerHTML = players[wilt.id].team
+        playerNickName.innerHTML = players[wilt.id].nickname
         playerImg.src = "./src/img/bio/wilt-bio.png"
+        playerQuote.innerHTML = players[wilt.id].quote
 
         gamesPlayed.innerHTML = players[wilt.id].stats["G"]
         points.innerHTML = players[wilt.id].stats["PTS"]
