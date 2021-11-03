@@ -7,6 +7,7 @@ import mjDrawChart from "./scripts/draw-chart-jordan";
 import kobeDrawChart from "./scripts/draw-chart-kobe";
 import shaqDrawChart from "./scripts/draw-chart-shaq";
 import kareemDrawChart from "./scripts/draw-chart-kareem";
+import hakeemDrawChart from "./scripts/draw-chart-hakeem";
 
 import curryPieChart from "./scripts/draw-pie-charts/draw-pie-curry";
 import lebronPieChart from "./scripts/draw-pie-charts/draw-pie-lebron";
@@ -14,6 +15,7 @@ import mjPieChart from "./scripts/draw-pie-charts/draw-pie-mj";
 import kobePieChart from "./scripts/draw-pie-charts/draw-pie-kobe";
 import shaqPieChart from "./scripts/draw-pie-charts/draw-pie-shaq";
 import kareemPieChart from "./scripts/draw-pie-charts/draw-pie-kareem";
+import hakeemPieChart from "./scripts/draw-pie-charts/draw-pie-hakeem";
 
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -174,6 +176,29 @@ document.addEventListener("DOMContentLoaded", () => {
 
         kareemDrawChart();
         kareemPieChart();
+    })
+
+    const hakeem = document.getElementById("6")
+    hakeem.addEventListener("click", function () {
+        playerName.innerHTML = players[6].fullName
+        playerTeam.innerHTML = players[6].team
+        playerNickName.innerHTML = players[5].nickname
+        playerImg.src = "./src/img/bio/hakeem-bio.png"
+
+        gamesPlayed.innerHTML = players[hakeem.id].stats["G"]
+        points.innerHTML = players[hakeem.id].stats["PTS"]
+        rebounds.innerHTML = players[hakeem.id].stats["TRB"]
+        assists.innerHTML = players[hakeem.id].stats["AST"]
+        fieldGoalsPercentage.innerHTML = players[hakeem.id].stats["FG%"]
+        threePointFieldGoalPercentage.innerHTML = players[hakeem.id].stats["FG3%"]
+        freeThrowPercentage.innerHTML = players[hakeem.id].stats["FT%"]
+        effectiveFieldGoalPercentage.innerHTML = players[hakeem.id].stats["eFG%"]
+        playerEfficiencyRating.innerHTML = players[hakeem.id].stats["PER"]
+        winShares.innerHTML = players[hakeem.id].stats["WS"]
+
+
+        hakeemDrawChart();
+        hakeemPieChart();
     })
 
 })

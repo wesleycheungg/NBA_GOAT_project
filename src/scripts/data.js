@@ -203,6 +203,42 @@ const players = [
         }
     },
 
+    {
+        id: 6,
+        fullName: "Hakeem Olajuwon",
+        jerseyNumber: 33,
+        team: "Houston Rockets",
+        position: "Center",
+        shoots: "Right-Handed",
+        img: "",
+        nickname: ["The Dream", " Little Moses"],
+        stats: {
+            Summary: "Career",
+            G: "1238",
+            PTS: "21.8",
+            TRB: "11.1",
+            AST: "2.5",
+            "FG%": "51.2",
+            "FG3%": "20.2",
+            "FT%": "71.2",
+            "eFG%": "51.3",
+            PER: "23.6",
+            WS: "162.8"
+        },
+        accolades: {
+            "Rookie of the Year": 0,
+            "Block Champ": 3,
+            "Defensive Player of the Year": 2,
+            "All Stars": 12,
+            "Scoring Champ": 0,
+            "All-Defensive": 9,
+            "All-NBA": 12,
+            "NBA-Finals MVP": 2,
+            MVP: 1,
+            "NBA Titles": 2
+        }
+    },
+
 
 ]
 
