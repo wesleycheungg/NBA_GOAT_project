@@ -309,7 +309,7 @@ document.addEventListener("DOMContentLoaded", () => {
         video.src = "/src/img/gallery/kobe-video.mp4"
         img1.src = "/src/img/gallery/kobe1.png"
         img2.src = "/src/img/gallery/kobe2.png"
-        img3.src = "/src/img/gallery/kobegit 3.png"
+        img3.src = "/src/img/gallery/kobe3.png"
 
         video.style.display = "block"
         title1.style.display = "block"
