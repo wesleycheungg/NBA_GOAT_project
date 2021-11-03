@@ -52,5 +52,10 @@ h5 {
 
 #player-nickname {
     margin: 0px;
-    
+}
+
+#player-quote {
+    margin: 0px;
+    margin-top: 5px;
+    font-style: italic;
 }

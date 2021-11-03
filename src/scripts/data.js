@@ -8,6 +8,7 @@ const players = [
         shoots: "Right-Handed",
         img: "curry-bio",
         nickname: ["Chef Curry", " Steph", " Baby-Faced Assassin"],
+        quote: "He’s a lot like Wilt and Shaq and Jordan, Iverson. They changed things. They changed how the game is perceived and played. -Reggie Miller",
         stats: {
             Summary: "Career",
             G: "768",
@@ -41,6 +42,7 @@ const players = [
         position: "Small Forward",
         shoots: "Right-Handed",
         nickname: ["King James", " LBJ", " Chosen One"],
+        quote: "LeBron James is one of the best players in the league - and one of the best players to ever play the game. -Giannis Antetokounmpo",
         stats: {
             Summary: "Career",
             G: "1315",
@@ -75,6 +77,7 @@ const players = [
         shoots: "Right-Handed",
         img: "",
         nickname: ["Air Jordan", " M.J.", " Mike"],
+        quote: "If you look up the definition of greatness in the dictionary, it will say Michael Jordan. -Elgin Baylor",
         stats: {
             Summary: "Career",
             G: "1072",
@@ -109,6 +112,7 @@ const players = [
         shoots: "Right-Handed",
         img: "",
         nickname: ["Black Mamba", " KB24", " Vino"],
+        quote: "If I was in my prime, who would I want to play one-on-one? Jordan asked in an interview with NBA 2K. That list is very long. I'd start off with Jerry West, Elgin Baylor, Kobe Bryant in his prime, LeBron [James] in his prime, D[wyane] Wade in his prime, [Car]Melo [Anthony], that's a good start. I don’t think I‘d lose, other than to Kobe Bryant because he steals all of my moves. -Michael Jordan",        
         stats: {
             Summary: "Career",
             G: "1346",
@@ -143,6 +147,7 @@ const players = [
         shoots: "Right-Handed",
         img: "",
         nickname: ["Shaq", " Diesel", " Superman"],
+        quote: "To me, Shaq was the most dominant. I would say Michael is probably the most unstoppable, but when you talk about dominant like we used to try tostop Shaq from running like that was kinda the gameplan. Don't let Shaq run. Don't even think about him getting the ball; just stop him from running. He gonna beat most of the players down the court. -Scottie Pippen",
         stats: {
             Summary: "Career",
             G: "1207",

@@ -33,6 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let playerNickName = document.getElementById("player-nickname")
     let playerImg = document.getElementById("player-img")
     let playerBackground = document.getElementById("background")
+    let playerQuote = document.getElementById("player-quote")
     //stats
     let stats = document.querySelector(".career-stats")
     let gamesPlayed = document.getElementById("G")
@@ -88,6 +89,7 @@ document.addEventListener("DOMContentLoaded", () => {
         playerTeam.innerHTML = players[curry.id].team
         playerNickName.innerHTML = players[curry.id].nickname
         playerImg.src = "./src/img/bio/curry-bio.png"
+        playerQuote.innerHTML = players[curry.id].quote
 
         gamesPlayed.innerHTML = players[curry.id].stats["G"]
         points.innerHTML = players[curry.id].stats["PTS"]
@@ -133,10 +135,11 @@ document.addEventListener("DOMContentLoaded", () => {
         wiltIcon.style.filter = "grayscale(1)"
         wiltIcon.style.border = "0px"
 
-        playerName.innerHTML = players[1].fullName
-        playerTeam.innerHTML = players[1].team
-        playerNickName.innerHTML = players[1].nickname
+        playerName.innerHTML = players[lebron.id].fullName
+        playerTeam.innerHTML = players[lebron.id].team
+        playerNickName.innerHTML = players[lebron.id].nickname
         playerImg.src = "./src/img/bio/lebron-bio.png"
+        playerQuote.innerHTML = players[lebron.id].quote
 
         gamesPlayed.innerHTML = players[lebron.id].stats["G"]
         points.innerHTML = players[lebron.id].stats["PTS"]
@@ -181,10 +184,11 @@ document.addEventListener("DOMContentLoaded", () => {
         wiltIcon.style.filter = "grayscale(1)"
         wiltIcon.style.border = "0px"
 
-        playerName.innerHTML = players[2].fullName
-        playerTeam.innerHTML = players[2].team
-        playerNickName.innerHTML = players[2].nickname
+        playerName.innerHTML = players[mj.id].fullName
+        playerTeam.innerHTML = players[mj.id].team
+        playerNickName.innerHTML = players[mj.id].nickname
         playerImg.src = "./src/img/bio/mj-bio.png"
+        playerQuote.innerHTML = players[mj.id].quote
 
         gamesPlayed.innerHTML = players[mj.id].stats["G"]
         points.innerHTML = players[mj.id].stats["PTS"]
@@ -230,10 +234,11 @@ document.addEventListener("DOMContentLoaded", () => {
         wiltIcon.style.filter = "grayscale(1)"
         wiltIcon.style.border = "0px"
 
-        playerName.innerHTML = players[3].fullName
-        playerTeam.innerHTML = players[3].team
-        playerNickName.innerHTML = players[3].nickname
+        playerName.innerHTML = players[kobe.id].fullName
+        playerTeam.innerHTML = players[kobe.id].team
+        playerNickName.innerHTML = players[kobe.id].nickname
         playerImg.src = "./src/img/bio/kobe-bio.png"
+        playerQuote.innerHTML = players[kobe.id].quote
 
         gamesPlayed.innerHTML = players[kobe.id].stats["G"]
         points.innerHTML = players[kobe.id].stats["PTS"]
@@ -279,10 +284,11 @@ document.addEventListener("DOMContentLoaded", () => {
         wiltIcon.style.border = "0px"
 
         wiltIcon.style.border = "0px"
-        playerName.innerHTML = players[4].fullName
-        playerTeam.innerHTML = players[4].team
-        playerNickName.innerHTML = players[4].nickname
+        playerName.innerHTML = players[shaq.id].fullName
+        playerTeam.innerHTML = players[shaq.id].team
+        playerNickName.innerHTML = players[shaq.id].nickname
         playerImg.src = "./src/img/bio/shaq-bio.png"
+        playerQuote.innerHTML = players[shaq.id].quote
 
         gamesPlayed.innerHTML = players[shaq.id].stats["G"]
         points.innerHTML = players[shaq.id].stats["PTS"]
