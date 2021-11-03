@@ -9,7 +9,7 @@ function mjPieChart() {
         animationEnabled: true,
         colorSet: "kobe",
         title: {
-            text: "Teams Played For"
+
         },
         data: [{
             type: "pie",

@@ -68,6 +68,8 @@ document.addEventListener("DOMContentLoaded", () => {
     let img2 = document.getElementById("gallery2")
     let img3 = document.getElementById("gallery3")
 
+    let video = document.getElementById("video")
+
     const curry = document.getElementById("0")
     curry.addEventListener("click", function() {
         main.style.backgroundColor = "white"
@@ -116,8 +118,8 @@ document.addEventListener("DOMContentLoaded", () => {
         // playerBackground.style.backgroundImage = "url('/src/img/background/steph-background.png')"
 
         imgContainer.style.display = "block"
-        img1.src = "/src/img/gallery/steph-video.mp4"
-        img1.muted = true
+        video.src = "/src/img/gallery/steph-video.mp4"
+        img1.src = "/src/img/gallery/steph1.png"
         img2.src = "/src/img/gallery/steph2.png"
         img3.src = "/src/img/gallery/steph3.png"
 

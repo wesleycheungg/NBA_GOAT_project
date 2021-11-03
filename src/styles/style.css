@@ -32,6 +32,12 @@ body {
 h2 {
     /* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
     font-family: 'Rock Salt', cursive;
+    /* text-align: center; */
+}
+
+h3 {
+    padding-top: 40px;
+    font-family: 'Rock Salt', cursive;
     text-align: center;
 }
 
@@ -41,9 +47,17 @@ h2 {
     width: 300px
 }
 
+#video {
 
-#chartContainer, #pieChartContainer {
+}
+
+
+#chartContainer {
     padding-top: 25px;
+    padding-left: 20px;
+}
+
+#pieChartContainer{
     padding-left: 20px;
 }
 

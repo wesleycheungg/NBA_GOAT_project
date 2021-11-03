@@ -11,7 +11,7 @@ function wiltPieChart() {
         animationEnabled: true,
         colorSet: "wilt",
         title: {
-            text: "Teams Played For"
+
         },
         data: [{
             type: "pie",

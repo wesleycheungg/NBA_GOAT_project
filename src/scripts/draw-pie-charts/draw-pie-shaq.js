@@ -18,7 +18,7 @@ function shaqPieChart() {
         animationEnabled: true,
         colorSet: "shaq",
         title: {
-            text: "Teams Played For"
+
         },
         data: [{
             type: "pie",

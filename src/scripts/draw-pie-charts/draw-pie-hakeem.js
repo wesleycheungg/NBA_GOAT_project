@@ -13,7 +13,7 @@ function hakeemPieChart() {
         animationEnabled: true,
         colorSet: "hakeem",
         title: {
-            text: "Teams Played For"
+
         },
         data: [{
             type: "pie",

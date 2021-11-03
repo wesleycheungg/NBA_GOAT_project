@@ -8,7 +8,6 @@ function curryPieChart() {
         animationEnabled: true,
         colorSet: "curry",
         title: {
-            text: "Teams Played For"
         },
         data: [{
             type: "pie",

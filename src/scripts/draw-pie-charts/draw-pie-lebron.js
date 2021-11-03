@@ -12,7 +12,7 @@ function lebronPieChart() {
         animationEnabled: true,
         colorSet: "lebron",
         title: {
-            text: "Teams Played For"
+ 
         },
         data: [{
             type: "pie",

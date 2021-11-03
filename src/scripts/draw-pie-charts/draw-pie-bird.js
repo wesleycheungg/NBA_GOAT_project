@@ -9,7 +9,7 @@ function birdPieChart() {
         animationEnabled: true,
         colorSet: "bird",
         title: {
-            text: "Teams Played For"
+
         },
         data: [{
             type: "pie",

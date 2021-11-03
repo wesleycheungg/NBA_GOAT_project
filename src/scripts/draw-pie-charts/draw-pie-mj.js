@@ -11,7 +11,7 @@ function mjPieChart() {
         animationEnabled: true,
         colorSet: "mj",
         title: {
-            text: "Teams Played For"
+
         },
         data: [{
             type: "pie",
