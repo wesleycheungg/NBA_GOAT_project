@@ -1,7 +1,7 @@
 body {
     /* maybe include background? */
     position: relative;
-    background-image: url("/src/img/background/background.png");
+    background-image: url("./src/img/background/background.png");
     /* background-position: center; */
     background-repeat: no-repeat;
     background-size: cover;
