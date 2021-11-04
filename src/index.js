@@ -121,10 +121,10 @@ document.addEventListener("DOMContentLoaded", () => {
         // playerBackground.style.backgroundImage = "url('/src/img/background/steph-background.png')"
 
         imgContainer.style.display = "block"
-        video.src = "/src/img/gallery/steph-video.mp4"
-        img1.src = "/src/img/gallery/steph1.png"
-        img2.src = "/src/img/gallery/steph2.png"
-        img3.src = "/src/img/gallery/steph3.png"
+        video.src = "./src/img/gallery/steph-video.mp4"
+        img1.src = "./src/img/gallery/steph1.png"
+        img2.src = "./src/img/gallery/steph2.png"
+        img3.src = "./src/img/gallery/steph3.png"
 
         video.style.display = "block"
         title1.style.display = "block"
