@@ -40,6 +40,13 @@ h3 {
     text-align: center;
 }
 
+h4 {
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    color: white;
+    margin: 0px;
+}
+
 .bio {
     float: right;
     text-align: left;
@@ -89,7 +96,9 @@ h1 {
     color: whitesmoke;
     font-weight: bold;
     margin-top: 0;
+    margin-bottom: 0;
 }
+
 
 #title1, #title2 , #video{
     display: none;

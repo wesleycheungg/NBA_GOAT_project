@@ -3,6 +3,8 @@
     /* visibility: hidden; */
     display: none;
     font-size: 12px;
+    margin-top: 10px;
+    padding-top: 20px;
 }
 
 .career-headers th{

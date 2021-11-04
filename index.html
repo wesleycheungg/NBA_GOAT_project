@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./src/styles/instructions.css">
     <link rel="stylesheet" href="./src/styles/style.css">
     <link rel="stylesheet" href="./src/styles/image_gallery.css">
-
+    <link rel="stylesheet" href="./src/styles/nav-1.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,9 +20,25 @@
     <title>Who is the NBA GOAT?</title>
 </head>
 
+    <nav>
+        <ul id="nav-1">
+            <a href="https://github.com/wesleycheungg" >
+                <img src="/src/img/link-icons/github.png" style="width:25px;height:25px;">
+            </a>
+            <a href="https://www.linkedin.com/in/cheungwesley/">
+                <img src="/src/img/link-icons/linkedin.png" style="width:25px;height:25px;">
+            </a>
+            <a href="#">
+                <img src="/src/img/link-icons/folder.png" style="width:25px;height:25px;">
+            </a>
+        </ul>
+    </nav>
+
     <header>
-        <h1>THE NBA GOAT DEBATE</h1>
+        <h1>THE NBA GOAT DEBATE
     </header>
+
+    <h4>Choose a Player:</h4>
 
 <body id="background">
     <nav>
@@ -42,7 +58,7 @@
 
     <div id="instructions">
         This webpage has a list of 10 players that are commonly mentioned when it comes to the NBA GOAT debate.
-        "G.O.A.T." stands for greatest of all time. Everyone has their own GOAT, there is alot of disagreements in the sports media 
+        "G.O.A.T." stands for greatest of all time. Everyone has their own GOAT, there are alot of disagreements in the sports media 
         about who is the greatet of all time. This webpage allows you toggle between each different player dynamically 
         and will display a player profile so you can gain a better understanding of their career stats and achievements.
     </div>
@@ -151,8 +167,8 @@
                 dots[i].className = dots[i].className.replace(" active", "");
             }
             slides[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " active";
-            captionText.innerHTML = dots[slideIndex - 1].alt;
+            // dots[slideIndex - 1].className += " active";
+            // captionText.innerHTML = dots[slideIndex - 1].alt;
         }
     </script>
 
