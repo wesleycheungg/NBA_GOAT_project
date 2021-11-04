@@ -182,10 +182,10 @@ document.addEventListener("DOMContentLoaded", () => {
         // playerBackground.style.backgroundImage = "url('/src/img/background/lebron-background.png')"
 
         imgContainer.style.display = "block"
-        video.src = "/src/img/gallery/lebron-video.mp4"
-        img1.src = "/src/img/gallery/lebron1.png"
-        img2.src = "/src/img/gallery/lebron2.png"
-        img3.src = "/src/img/gallery/lebron3.png"
+        video.src = "./src/img/gallery/lebron-video.mp4"
+        img1.src = "./src/img/gallery/lebron1.png"
+        img2.src = "./src/img/gallery/lebron2.png"
+        img3.src = "./src/img/gallery/lebron3.png"
 
         video.style.display = "block"
         title1.style.display = "block"
@@ -244,10 +244,10 @@ document.addEventListener("DOMContentLoaded", () => {
         // playerBackground.style.backgroundImage = "url('/src/img/background/mj-background.png')"
 
         imgContainer.style.display = "block"
-        video.src = "/src/img/gallery/mj-video.mp4"
-        img1.src = "/src/img/gallery/mj1.png"
-        img2.src = "/src/img/gallery/mj2.png"
-        img3.src = "/src/img/gallery/mj3.png"
+        video.src = "./src/img/gallery/mj-video.mp4"
+        img1.src = "./src/img/gallery/mj1.png"
+        img2.src = "./src/img/gallery/mj2.png"
+        img3.src = "./src/img/gallery/mj3.png"
 
         video.style.display = "block"
         title1.style.display = "block"
@@ -306,10 +306,10 @@ document.addEventListener("DOMContentLoaded", () => {
         // playerBackground.style.backgroundImage = "url('/src/img/background/kobe-background.png')"
 
         imgContainer.style.display = "block"
-        video.src = "/src/img/gallery/kobe-video.mp4"
-        img1.src = "/src/img/gallery/kobe1.png"
-        img2.src = "/src/img/gallery/kobe2.png"
-        img3.src = "/src/img/gallery/kobe3.png"
+        video.src = "./src/img/gallery/kobe-video.mp4"
+        img1.src = "./src/img/gallery/kobe1.png"
+        img2.src = "./src/img/gallery/kobe2.png"
+        img3.src = "./src/img/gallery/kobe3.png"
 
         video.style.display = "block"
         title1.style.display = "block"
@@ -367,10 +367,10 @@ document.addEventListener("DOMContentLoaded", () => {
         // playerBackground.style.backgroundImage = "url('/src/img/background/shaq-background.png')"
 
         imgContainer.style.display = "block"
-        video.src = "/src/img/gallery/shaq-video.mp4"
-        img1.src = "/src/img/gallery/shaq1.png"
-        img2.src = "/src/img/gallery/shaq2.png"
-        img3.src = "/src/img/gallery/shaq3.png"
+        video.src = "./src/img/gallery/shaq-video.mp4"
+        img1.src = "./src/img/gallery/shaq1.png"
+        img2.src = "./src/img/gallery/shaq2.png"
+        img3.src = "./src/img/gallery/shaq3.png"
 
         video.style.display = "block"
         title1.style.display = "block"
@@ -427,10 +427,10 @@ document.addEventListener("DOMContentLoaded", () => {
         // playerBackground.style.backgroundImage = "url('/src/img/background/kareem-background.png')"
 
         imgContainer.style.display = "block"
-        video.src = "/src/img/gallery/kareem-video.mp4"
-        img1.src = "/src/img/gallery/kareem1.png"
-        img2.src = "/src/img/gallery/kareem2.png"
-        img3.src = "/src/img/gallery/kareem3.png"
+        video.src = "./src/img/gallery/kareem-video.mp4"
+        img1.src = "./src/img/gallery/kareem1.png"
+        img2.src = "./src/img/gallery/kareem2.png"
+        img3.src = "./src/img/gallery/kareem3.png"
 
         video.style.display = "block"
         title1.style.display = "block"
@@ -487,10 +487,10 @@ document.addEventListener("DOMContentLoaded", () => {
         // playerBackground.style.backgroundImage = "url('/src/img/background/hakeem-background.png')"
 
         imgContainer.style.display = "block"
-        video.src = "/src/img/gallery/hakeem-video.mp4"
-        img1.src = "/src/img/gallery/hakeem1.png"
-        img2.src = "/src/img/gallery/hakeem2.png"
-        img3.src = "/src/img/gallery/hakeem3.png"
+        video.src = "./src/img/gallery/hakeem-video.mp4"
+        img1.src = "./src/img/gallery/hakeem1.png"
+        img2.src = "./src/img/gallery/hakeem2.png"
+        img3.src = "./src/img/gallery/hakeem3.png"
 
         video.style.display = "block"
         title1.style.display = "block"
@@ -547,10 +547,10 @@ document.addEventListener("DOMContentLoaded", () => {
         // playerBackground.style.backgroundImage = "url('/src/img/background/bird-background.png')"
 
         imgContainer.style.display = "block"
-        video.src = "/src/img/gallery/bird-video.mp4"
-        img1.src = "/src/img/gallery/bird1.png"
-        img2.src = "/src/img/gallery/bird2.png"
-        img3.src = "/src/img/gallery/bird3.png"
+        video.src = "./src/img/gallery/bird-video.mp4"
+        img1.src = "./src/img/gallery/bird1.png"
+        img2.src = "./src/img/gallery/bird2.png"
+        img3.src = "./src/img/gallery/bird3.png"
 
         video.style.display = "block"
         title1.style.display = "block"
@@ -607,10 +607,10 @@ document.addEventListener("DOMContentLoaded", () => {
         // playerBackground.style.backgroundImage = "url('/src/img/background/magic-background.png')"
 
         imgContainer.style.display = "block"
-        video.src = "/src/img/gallery/magic-video.mp4"
-        img1.src = "/src/img/gallery/magic1.png"
-        img2.src = "/src/img/gallery/magic2.png"
-        img3.src = "/src/img/gallery/magic3.png"
+        video.src = "./src/img/gallery/magic-video.mp4"
+        img1.src = "./src/img/gallery/magic1.png"
+        img2.src = "./src/img/gallery/magic2.png"
+        img3.src = "./src/img/gallery/magic3.png"
 
         video.style.display = "block"
         title1.style.display = "block"
@@ -668,10 +668,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
         imgContainer.style.display = "block"
-        video.src = "/src/img/gallery/wilt-video.mp4"
-        img1.src = "/src/img/gallery/wilt1.png"
-        img2.src = "/src/img/gallery/wilt2.png"
-        img3.src = "/src/img/gallery/wilt3.png"
+        video.src = "./src/img/gallery/wilt-video.mp4"
+        img1.src = "./src/img/gallery/wilt1.png"
+        img2.src = "./src/img/gallery/wilt2.png"
+        img3.src = "./src/img/gallery/wilt3.png"
 
         video.style.display = "block"
         title1.style.display = "block"
