@@ -1,0 +1,1 @@
+{"version":3,"file":"main.css","mappings":"AAIA,MACI,UAHG,C","sources":["webpack://goat_project/./src/index.scss"],"sourcesContent":["\n\n$blue: blue;\n\n#main {\n    color: $blue;\n}"],"names":[],"sourceRoot":""}
