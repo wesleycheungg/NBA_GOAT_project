@@ -366,6 +366,16 @@ document.addEventListener("DOMContentLoaded", () => {
         instructions.style.display = "none"
         // playerBackground.style.backgroundImage = "url('/src/img/background/shaq-background.png')"
 
+        imgContainer.style.display = "block"
+        video.src = "/src/img/gallery/shaq-video.mp4"
+        img1.src = "/src/img/gallery/shaq1.png"
+        img2.src = "/src/img/gallery/shaq2.png"
+        img3.src = "/src/img/gallery/shaq3.png"
+
+        video.style.display = "block"
+        title1.style.display = "block"
+        title2.style.display = "block"
+
         shaqDrawChart();
         shaqPieChart();
     })
@@ -416,6 +426,15 @@ document.addEventListener("DOMContentLoaded", () => {
         instructions.style.display = "none"
         // playerBackground.style.backgroundImage = "url('/src/img/background/kareem-background.png')"
 
+        imgContainer.style.display = "block"
+        video.src = "/src/img/gallery/kareem-video.mp4"
+        img1.src = "/src/img/gallery/kareem1.png"
+        img2.src = "/src/img/gallery/kareem2.png"
+        img3.src = "/src/img/gallery/kareem3.png"
+
+        video.style.display = "block"
+        title1.style.display = "block"
+        title2.style.display = "block"
 
         kareemDrawChart();
         kareemPieChart();
@@ -467,6 +486,16 @@ document.addEventListener("DOMContentLoaded", () => {
         instructions.style.display = "none"
         // playerBackground.style.backgroundImage = "url('/src/img/background/hakeem-background.png')"
 
+        imgContainer.style.display = "block"
+        video.src = "/src/img/gallery/hakeem-video.mp4"
+        img1.src = "/src/img/gallery/hakeem1.png"
+        img2.src = "/src/img/gallery/hakeem2.png"
+        img3.src = "/src/img/gallery/hakeem3.png"
+
+        video.style.display = "block"
+        title1.style.display = "block"
+        title2.style.display = "block"
+
         hakeemDrawChart();
         hakeemPieChart();
     })
@@ -516,6 +545,16 @@ document.addEventListener("DOMContentLoaded", () => {
         stats.style.display = "block"
         instructions.style.display = "none"
         // playerBackground.style.backgroundImage = "url('/src/img/background/bird-background.png')"
+
+        imgContainer.style.display = "block"
+        video.src = "/src/img/gallery/bird-video.mp4"
+        img1.src = "/src/img/gallery/bird1.png"
+        img2.src = "/src/img/gallery/bird2.png"
+        img3.src = "/src/img/gallery/bird3.png"
+
+        video.style.display = "block"
+        title1.style.display = "block"
+        title2.style.display = "block"
 
         birdDrawChart();
         birdPieChart();
@@ -567,6 +606,16 @@ document.addEventListener("DOMContentLoaded", () => {
         instructions.style.display = "none"
         // playerBackground.style.backgroundImage = "url('/src/img/background/magic-background.png')"
 
+        imgContainer.style.display = "block"
+        video.src = "/src/img/gallery/magic-video.mp4"
+        img1.src = "/src/img/gallery/magic1.png"
+        img2.src = "/src/img/gallery/magic2.png"
+        img3.src = "/src/img/gallery/magic3.png"
+
+        video.style.display = "block"
+        title1.style.display = "block"
+        title2.style.display = "block"
+
         magicDrawChart();
         magicPieChart();
     })
@@ -616,6 +665,17 @@ document.addEventListener("DOMContentLoaded", () => {
         stats.style.display = "block"
         instructions.style.display = "none"
         // playerBackground.style.backgroundImage = "url('/src/img/background/wilt-background.png')"
+
+
+        imgContainer.style.display = "block"
+        video.src = "/src/img/gallery/wilt-video.mp4"
+        img1.src = "/src/img/gallery/wilt1.png"
+        img2.src = "/src/img/gallery/wilt2.png"
+        img3.src = "/src/img/gallery/wilt3.png"
+
+        video.style.display = "block"
+        title1.style.display = "block"
+        title2.style.display = "block"
 
         wiltDrawChart();
         wiltPieChart();
