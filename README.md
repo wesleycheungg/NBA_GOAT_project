@@ -1,5 +1,7 @@
 # goat_debate_project
 
+https://wesleycheungg.github.io/NBA_GOAT_project/
+
 ## Background and Overview
 The Goat Debate project is a data visualization webpage that allows the user to select an NBA player and compare their career resumes between the other players and decide who is the GOAT (Greatest of All Time) in the NBA. The user will have the option of toggling between 10 different NBA players. Once a player is clicked or toggled on, the webpage will display career statistics, achievements, top 10 plays, and a photo gallery. It is interactive in that it allows the user to have the ability toggle from one player to another smoothly, play the video, and cycle through different photos. The user can easily compare career resumes and they will also have the ability to upvote a player that they beleive is the GOAT.
 
